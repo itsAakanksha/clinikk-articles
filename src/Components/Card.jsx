@@ -1,31 +1,32 @@
-import React from 'react'
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-function Card() {
 
-  const navigate = useNavigate()
 
-  const handleClick = ()=>{
-    navigate('/details')
-  }
-    return (
-      <div className='w-[326px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer' onClick={handleClick} >
-        <div className='h-[225px]'>
-          <img 
-            src="https://s3-alpha-sig.figma.com/img/b9f1/d799/fa4a835ea3c0e050be3d68f649b18127?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UtdEZtLhoYzoB0Ea15DjcnpQZu224zVOyw36gQZQk7hYyySqJ4fzMJNUHv3au~-2dNEm4aRYS~mK-BWHsR0NS4o5aH81fKnZM6l6ZVVqPYyS1b~szu3cayksPX3-sBVaoUI30T3kTE-rzi~ZswgVcl~3Vba7JubcjLPSBSeONHC5NsiYr-IAEZfAh-QQZ7-lwcEhHJ10Rc6quvGwU6rc8IOrPHXZMxQY2U8JBGrIKlRIQMU~hophZVchJW8kYLOnpNA8uq-37E~c8bh6roEdLdgUXftDSVF7no7WT7yNgbcX5GFxpbbAL7NUt4FslfIj9N75Zj5Y4DrucccjxJSoKA__" 
-            className='h-full w-full object-cover rounded-t-3xl' 
-            alt="" 
-          />
-        </div>
-        <div className='flex flex-col gap-2 p-4 flex-grow '>
-          <div className='primary-color font-semibold'>Sunday, 1 Jan 2023</div>
-          <h3 className='text-2xl font-semibold'>Lorem Ipsum is simply dummy text of the</h3>
-          <p className='text-[#667085] line-clamp-3'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deserunt architecto libero inventore quam. At dignissimos labore, iste ipsum adipisci dolor veritatis quo quae cum, nemo optio sint quidem ea!
-          </p>
-        </div>
+function Card({ item }) {
+  const navigate = useNavigate();
+  const {id} = item
+  const handleClick = () => {
+    navigate(`/details/${id}`);
+  };
+
+  return (
+    <div className='w-[326px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer' onClick={handleClick}>
+      <div className='h-[225px]'>
+        <img 
+          src={item.imageUrl} 
+          className='h-full w-full object-cover rounded-t-3xl' 
+          alt="" 
+        />
       </div>
-    );
-  }
-  
+      <div className='flex flex-col gap-2 p-4 flex-grow '>
+        <div className='primary-color font-semibold'>{item.date}</div>
+        <h3 className='text-2xl font-semibold'>{item.title}</h3>
+        <p className='text-[#667085] line-clamp-3'>
+          {item.description}
+        </p>
+      </div>
+    </div>
+  );
+}
 
-export default Card
+export default Card;

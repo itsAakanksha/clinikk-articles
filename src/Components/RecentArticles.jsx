@@ -1,12 +1,13 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 
+
 function RecentArticles() {
 
   const navigate = useNavigate()
   const handleClick =()=>{
-    navigate('/details')
-  }
+    navigate(`/details/1`)
+  } 
   return (
     <>
    <div>

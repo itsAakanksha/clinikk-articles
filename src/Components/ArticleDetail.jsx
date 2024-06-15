@@ -4,28 +4,32 @@ import image2 from '../../public/Image (1).png'
 import image3 from '../../public/Image (2).png'
 import image4 from '../../public/Image (3).png'
 import Card from "./Card";
+import cardData from "../cardData.js";
+import { useParams } from "react-router-dom";
 
 function ArticleDetail() {
-  const cardsArray = Array.from({ length: 5 });
+  const {id} = useParams()
+  const cardsArray = cardData.slice(0, 5);
   return (
 
     <>
     <div className="flex flex-col-reverse items-center lg:flex-row lg:items-start mt-4 lg:mt-8 ">
-   <div>
-   <div className="font-bold p-4 text-2xl  my-6">
-    Recent Article Posts
-    </div>
+   
     <div>
-    {cardsArray.map((_, index) => (
-      <Card key={index} />
-    ))}
-  </div>
+    <div className="font-bold p-4 text-2xl md:my-12 my-6">
+      All Article Posts
+    </div>
+    <div className='flex justify-evenly gap-y-6 flex-wrap'>
+      {cardsArray.map((item) => (
+        <Card key={item.id} item={item} />
+      ))}
+    </div>
   </div>
 
   
  
     <div className="article p-8">
-      <div className="primary-color font-semibold">Sunday, 1 Jan 2023</div>
+      <div className="primary-color font-semibold">Sunday, {id} Jan 2023</div>
       <h3 className="text-2xl font-semibold my-8">
         Diabetes Management and Associated Costs in Bengaluru
       </h3>
