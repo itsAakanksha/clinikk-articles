@@ -3,7 +3,7 @@ import Cards from './Cards';
 import Pagination from './Pagination';
 import cardData from '../cardData.js'; // Import the card data
 import RecentArticles from './RecentArticles.jsx'
-
+import Header from './Header.jsx';
 const Home = () => {
   const itemsPerPage = 10; // Number of items per page
 
@@ -19,6 +19,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto mt-8">
+    <Header/>
        <RecentArticles/>
       <Cards currentItems={currentItems} />
       <Pagination

@@ -11,7 +11,7 @@ const cardData = [
     // Repeat the structure 19 more times with different id and date
   ];
   
-  for (let i = 2; i <= 30; i++) {
+  for (let i = 2; i <= 100; i++) {
     cardData.push({
       id: i,
       date: `Sunday, ${i} Jan 2023`,

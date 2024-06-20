@@ -13,7 +13,7 @@ function App() {
     <>
   <Navbar/>
   <div className='md:p-20 md:mx-12'>
-  <Header/>
+ 
   <Outlet/>
   </div>
   
