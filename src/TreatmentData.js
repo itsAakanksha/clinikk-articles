@@ -586,6 +586,331 @@ const TreatmentData = [
     },
   },
 
+  {
+    article: {
+      id: 4,
+      title: "Guide to Treating Respiratory Infections in Bengaluru",
+      introduction:
+        "Respiratory infections are increasingly common in Bengaluru, primarily due to rising pollution levels and changing weather conditions. Understanding the best treatments for respiratory issues and knowing where to find reliable care is essential. Clinikk, a trusted healthcare provider, has managed respiratory issues for over 6000 patients over the years, making it the top choice for effective treatment. This comprehensive guide will help you understand respiratory infections, the associated costs, and why Clinikk is your best choice for respiratory care.",
+      sections: [
+        {
+          heading: "Understanding Respiratory Infections",
+          content: {
+
+            contDesc:
+              "Back pain can range from a dull, constant ache to a sudden, sharp pain that makes movement difficult. It can be caused by various factors, including:",
+            contUl: [
+               " Poor posture",
+              "  Muscle or ligament strain",
+              "  Bulging or ruptured discs",
+               " Arthritis",
+             "   Osteoporosis",
+                
+            ],
+          },
+        },
+        {
+          
+        },
+        {
+        
+        },
+        {
+          heading: "Effective Dengue Treatment",
+          description:
+            "While there is no specific antiviral treatment for dengue, supportive care is essential to manage symptoms and prevent complications. Here are the key components of effective dengue treatment:",
+          subsections: [
+            {
+              subheading: "Hydration",
+              content: {
+                contDesc:
+                  "In order to effectively manage dengue, it is imperative to ensure that one is adequately hydrated. Patients are encouraged to drink plenty of fluids, including water, oral rehydration solutions (ORS), coconut water, and clear soup. In severe cases, intravenous (IV) fluids may be administered to prevent dehydration and keep electrolytes in balance.",
+              },
+            },
+            {
+              subheading: "Pain Relief",
+              content: {
+                contDesc:
+                  "Fever and pain associated with dengue can be managed with paracetamol (acetaminophen). Non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin and ibuprofen should be avoided, as they can increase the risk of bleeding.",
+              },
+            },
+            {
+              subheading: "Monitoring and Hospitalization",
+              content: {
+                contDesc:
+                  "Regular monitoring of vital signs, platelet count, and hematocrit levels is crucial. Patients with severe symptoms, such as persistent vomiting, abdominal pain, bleeding, or signs of shock, may require hospitalization. Intensive care may be necessary for patients with severe dengue.",
+              },
+            },
+            {
+              subheading: "Rest",
+              content: {
+                contDesc:
+                  "Adequate rest is essential for recovery. Patients should avoid strenuous activities and allow their bodies to heal.",
+              },
+            },
+          ],
+        },
+        {
+            heading: "Associated Costs of Pain Management in Bengaluru ",
+            description:
+              "The cost of pain management can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
+            sections: [
+              {
+                title: "Consultation Fees",
+                items: [
+                  {
+                    name: "Initial Consultation",
+                    costRange: "INR 500 - INR 2000",
+                  },
+                  { name: "Follow-up Visits", costRange: "INR 300 - INR 1500" },
+                ],
+              },
+              {
+                title: "Diagnostic Tests",
+                items: [
+                  {
+                    name: "X-rays:",
+                    costRange: "INR 100 - INR 1500",
+                  },
+                  { name: "MRI Scans:", costRange: " INR 3000 - INR 8000" },
+                  { name: "OGTT", costRange: "INR 500 - INR 1000" },
+                  {
+                    name: "Blood Tests:",
+                    costRange: "INR 100 - INR 300",
+                  },
+                ],
+              },
+              {
+                title: "Medications",
+                items: [
+                  { name: "Insulin", costRange: "INR 500 - INR 3000 per month" },
+                  {
+                    name: "Oral Medications",
+                    costRange: "INR 200 - INR 1500 per month",
+                  },
+                  {
+                    name: "Injectable Medications",
+                    costRange: "INR 2000 - INR 8000 per month",
+                  },
+                ],
+              },
+              {
+                title: "Monitoring Devices",
+                items: [
+                  { name: "Glucometer", costRange: "INR 800 - INR 2000" },
+                  { name: "CGM Device", costRange: "INR 4000 - INR 15,000" },
+                ],
+              },
+              {
+                title: "Diet and Lifestyle Programs",
+                items: [
+                  {
+                    name: "Dietitian Consultation",
+                    costRange: "INR 500 - INR 2000 per session",
+                  },
+                  {
+                    name: "Exercise Programs",
+                    costRange: "INR 1000 - INR 5000 per month",
+                  },
+                ],
+              },
+            ],
+            totalCost: {
+              title: "Total Cost of Diabetes Management",
+              desc: "The total cost of managing diabetes in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for diabetes management.",
+            },
+          },
+        {
+         
+        },
+        {
+          heading: "Why Choose Clinikk for Dengue Treatment?",
+          content: [
+            "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
+            "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
+            "Patient-Centric Approach: We prioritise your health and well-being, offering personalised care tailored to your needs.",
+            "Affordable Dengue Treatment Cost: We offer transparent and affordable pricing, ensuring you receive the best care without financial strain.",
+            "Comprehensive Care: From outpatient consultations to hospitalisation, Clinikk provides a full spectrum of services to manage dengue effectively.",
+          ],
+        },
+        {
+         
+        },
+        {
+          
+        },
+
+         {
+          heading: "Conclusion",
+          content:
+            "Dengue fever is a serious health concern in Bengaluru, but with timely diagnosis, effective treatment, and preventive measures, it can be managed successfully. Clinikk offers comprehensive dengue care with experienced doctors, state-of-the-art facilities, and a patient-centric approach. By understanding the treatment process and associated costs, you can make informed decisions for yourself and your loved ones. Remember, early detection and proper management are key to overcoming dengue. ",
+        },
+      ],
+    },
+  },
+
+  {
+    article: {
+      id: 5,
+      title: "Guide to Treating Fever, Cold, Cough, and Sore Throat in Bengaluru",
+      introduction:
+        "In Bengaluru, common ailments like fever, cold, cough, and sore throat can be frequent due to changing weather and urban living conditions. Understanding the best treatments for these symptoms and knowing where to find reliable care is essential. Clinikk, a trusted healthcare provider, has conducted over 100,000 consultations in the last five years, making it the top choice for patients seeking effective treatment for these common ailments.",
+      sections: [
+        {
+          heading: "Understanding Common Symptoms",
+          content: {
+
+            contDesc:
+              "Back pain can range from a dull, constant ache to a sudden, sharp pain that makes movement difficult. It can be caused by various factors, including:",
+            contUl: [
+               " Poor posture",
+              "  Muscle or ligament strain",
+              "  Bulging or ruptured discs",
+               " Arthritis",
+             "   Osteoporosis",
+                
+            ],
+          },
+        },
+        {
+          
+        },
+        {
+        
+        },
+        {
+          heading: "Effective Dengue Treatment",
+          description:
+            "While there is no specific antiviral treatment for dengue, supportive care is essential to manage symptoms and prevent complications. Here are the key components of effective dengue treatment:",
+          subsections: [
+            {
+              subheading: "Hydration",
+              content: {
+                contDesc:
+                  "In order to effectively manage dengue, it is imperative to ensure that one is adequately hydrated. Patients are encouraged to drink plenty of fluids, including water, oral rehydration solutions (ORS), coconut water, and clear soup. In severe cases, intravenous (IV) fluids may be administered to prevent dehydration and keep electrolytes in balance.",
+              },
+            },
+            {
+              subheading: "Pain Relief",
+              content: {
+                contDesc:
+                  "Fever and pain associated with dengue can be managed with paracetamol (acetaminophen). Non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin and ibuprofen should be avoided, as they can increase the risk of bleeding.",
+              },
+            },
+            {
+              subheading: "Monitoring and Hospitalization",
+              content: {
+                contDesc:
+                  "Regular monitoring of vital signs, platelet count, and hematocrit levels is crucial. Patients with severe symptoms, such as persistent vomiting, abdominal pain, bleeding, or signs of shock, may require hospitalization. Intensive care may be necessary for patients with severe dengue.",
+              },
+            },
+            {
+              subheading: "Rest",
+              content: {
+                contDesc:
+                  "Adequate rest is essential for recovery. Patients should avoid strenuous activities and allow their bodies to heal.",
+              },
+            },
+          ],
+        },
+        {
+            heading: "Associated Costs of Pain Management in Bengaluru ",
+            description:
+              "The cost of pain management can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
+            sections: [
+              {
+                title: "Consultation Fees",
+                items: [
+                  {
+                    name: "Initial Consultation",
+                    costRange: "INR 500 - INR 2000",
+                  },
+                  { name: "Follow-up Visits", costRange: "INR 300 - INR 1500" },
+                ],
+              },
+              {
+                title: "Diagnostic Tests",
+                items: [
+                  {
+                    name: "X-rays:",
+                    costRange: "INR 100 - INR 1500",
+                  },
+                  { name: "MRI Scans:", costRange: " INR 3000 - INR 8000" },
+                  { name: "OGTT", costRange: "INR 500 - INR 1000" },
+                  {
+                    name: "Blood Tests:",
+                    costRange: "INR 100 - INR 300",
+                  },
+                ],
+              },
+              {
+                title: "Medications",
+                items: [
+                  { name: "Insulin", costRange: "INR 500 - INR 3000 per month" },
+                  {
+                    name: "Oral Medications",
+                    costRange: "INR 200 - INR 1500 per month",
+                  },
+                  {
+                    name: "Injectable Medications",
+                    costRange: "INR 2000 - INR 8000 per month",
+                  },
+                ],
+              },
+              {
+                title: "Monitoring Devices",
+                items: [
+                  { name: "Glucometer", costRange: "INR 800 - INR 2000" },
+                  { name: "CGM Device", costRange: "INR 4000 - INR 15,000" },
+                ],
+              },
+              {
+                title: "Diet and Lifestyle Programs",
+                items: [
+                  {
+                    name: "Dietitian Consultation",
+                    costRange: "INR 500 - INR 2000 per session",
+                  },
+                  {
+                    name: "Exercise Programs",
+                    costRange: "INR 1000 - INR 5000 per month",
+                  },
+                ],
+              },
+            ],
+            totalCost: {
+              title: "Total Cost of Diabetes Management",
+              desc: "The total cost of managing diabetes in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for diabetes management.",
+            },
+          },
+        {
+         
+        },
+        {
+          heading: "Why Choose Clinikk for Dengue Treatment?",
+          content: [
+            "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
+            "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
+            "Patient-Centric Approach: We prioritise your health and well-being, offering personalised care tailored to your needs.",
+            "Affordable Dengue Treatment Cost: We offer transparent and affordable pricing, ensuring you receive the best care without financial strain.",
+            "Comprehensive Care: From outpatient consultations to hospitalisation, Clinikk provides a full spectrum of services to manage dengue effectively.",
+          ],
+        },
+        {
+         
+        },
+        {
+          
+        },
+
+         {
+          heading: "Conclusion",
+          content:
+            "Dengue fever is a serious health concern in Bengaluru, but with timely diagnosis, effective treatment, and preventive measures, it can be managed successfully. Clinikk offers comprehensive dengue care with experienced doctors, state-of-the-art facilities, and a patient-centric approach. By understanding the treatment process and associated costs, you can make informed decisions for yourself and your loved ones. Remember, early detection and proper management are key to overcoming dengue. ",
+        },
+      ],
+    },
+  },
   
 ];
 
