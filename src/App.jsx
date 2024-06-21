@@ -1,4 +1,3 @@
-
 import './App.css'
 import Navbar from './Components/Navbar'
 import Header from './Components/Header';
@@ -8,6 +7,7 @@ import Cards from './Components/Cards';
 import ArticleDetail from './Components/ArticleDetail';
 import Footer from './Components/Footer';
 import { Outlet } from 'react-router-dom';
+
 function App() {
 
   return(

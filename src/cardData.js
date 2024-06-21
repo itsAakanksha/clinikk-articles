@@ -1,74 +1,129 @@
 const cardData = [
-    {
+
+  {
+    categoryName:"Chronic Diseases",
+    type:[ {
       id: 1,
-      title: 'Acute Conditions',
-      description: 'Fever, cold, cough, sore throat, headaches, and more.',
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1661274101169-2ccd2324bb97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Diabetes',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1714678708304-28971a973dc3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 2,
-      title: 'Chronic Diseases',
-      description: 'Diabetes, hypertension, and thyroid disorders.',
-      imageUrl: 'https://images.unsplash.com/photo-1605654580413-5a7f24649936?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Hypertension',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://images.unsplash.com/photo-1631558554184-319c88f4f8a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 3,
-      title: 'Skin Conditions',
-      description: 'Allergic reactions, dermatitis, and fungal infections.',
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664476609789-ebc9efb04f96?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Thyroid Disorders',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1663047254383-0e4d7aa779bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },]
+  }
+,
+  {
+    categoryName:"Skin Conditions we treat",
+    type:[ {
+      id: 3,
+      title: ' Allergic reactions',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1661537390414-33d7ad495159?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 4,
-      title: 'Infections',
-      description: 'Viral infections, urinary tract infections (UTI), and wound infections.',
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1661274101169-2ccd2324bb97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Dermatitis',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1661475615346-0ec058fec898?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 5,
-      title: 'Pain Management',
-      description: 'Joint pain, back pain, and body aches.',
-      imageUrl: 'https://images.unsplash.com/photo-1605654580413-5a7f24649936?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: ' Fungal Infections',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1677545889722-423483ddd9f9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },]
+  },
+
+  {
+    categoryName:"Acute Conditions",
+    type:[ {
+      id: 4,
+      title: ' Fever',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1664910150142-c5fee1b9c1b7?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },
+    {
+      id: 5,
+      title: 'Sore throat',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1664299026240-c118fdae8270?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 6,
-      title: 'Respiratory Conditions',
-      description: 'Asthma, bronchitis, and COPD.',
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664476609789-ebc9efb04f96?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Headaches',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://images.unsplash.com/photo-1618498390344-445c804f2ac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },] 
+  }
+   ,
+   {
+    categoryName:"Pain Management",
+    type:[ {
+      id: 4,
+      title: ' Joint Pain',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1664910605048-44c8450c0356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 7,
-      title: 'Gastrointestinal Issues',
-      description: 'Gastritis, acid reflux, and irritable bowel syndrome (IBS).',
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1661274101169-2ccd2324bb97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '2023-06-07',
+      id: 5,
+      title: ' Back Pain',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1661779360652-b067e858ad02?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 8,
-      title: 'Cardiovascular Diseases',
-      description: 'Heart disease, arrhythmias, and high cholesterol.',
-      imageUrl:'https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?q=80&w=1983&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '2023-06-08',
+      id: 6,
+      title: 'Body Aches',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://images.unsplash.com/photo-1585917138424-61cf3ee524d9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },] 
+  },
+  {
+    categoryName:"Infections",
+    type:[ {
+      id: 4,
+      title: ' Viral infections',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://images.unsplash.com/photo-1583324113626-70df0f4deaab?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 9,
-      title: 'Neurological Disorders',
-      description: 'Migraines, epilepsy, and multiple sclerosis.',
-      imageUrl: 'https://images.unsplash.com/photo-1579684288361-5c1a2957a700?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '2023-06-09',
+      id: 5,
+      title: 'Urinary Tract Infections (UTI)',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1702599099904-4f25f14b0471?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 10,
-      title: 'Mental Health',
-      description: 'Depression, anxiety, and stress management.',
-      imageUrl: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '2023-06-10',
-    },
+      id: 6,
+      title: ' Wound Infections.',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://images.unsplash.com/photo-1579544758184-a8994eb607a4?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    },] 
+  }
+   
   ];
-  
+    
 export default cardData;

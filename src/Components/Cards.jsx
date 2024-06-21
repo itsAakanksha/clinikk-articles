@@ -7,30 +7,30 @@ function Cards({ currentItems }) {
     <>
       <div>
         {" "}
-        <div className="font-bold p-4 text-2xl md:my-12 my-6">
-        Chronic treatments at Clinikk
-        </div>
-        <div className="flex justify-evenly gap-y-6 flex-wrap">
         {currentItems.map((item, index) => (
-          index < 3 && <Card key={item.id} item={item} />
+          <div key={index}>
+            <div className="font-bold p-4 text-2xl md:my-12 my-6">
+              {item.categoryName}
+            </div>
+            <div className="flex justify-evenly gap-y-6 flex-wrap">
+              {item.type.map(
+                (typeItem, typeIndex) =>
+                  typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
+              )}
+            </div>
+          </div>
         ))}
-        </div>
-        <div className="font-bold p-4 text-2xl md:my-12 my-6">
-        Skin Conditions we treat 
-        </div>
-        <div className="flex justify-evenly gap-y-6 flex-wrap">
-        {currentItems.map((item, index) => (
-          index < 3 && <Card key={item.id} item={item} />
-        ))}
-        </div>
         <div className="font-bold p-4 text-2xl md:my-12 my-6">
           All Chronic Treatments
         </div>
-        <div className="flex justify-evenly gap-y-6 flex-wrap">
-          {currentItems.map((item) => (
-            <Card key={item.id} item={item} />
-          ))}
-        </div>
+        {currentItems.map((item, index) => (
+          <div className="flex justify-evenly gap-y-6 flex-wrap">
+            {item.type.map(
+              (typeItem, typeIndex) =>
+                typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
+            )}
+          </div>
+        ))}
       </div>
     </>
   );
