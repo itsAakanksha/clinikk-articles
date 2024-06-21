@@ -40,7 +40,7 @@ function ArticleDetail({ articles }) {
         </div>
 
 
-        <div className="article lg:mx-16 lg:px-32">
+        <div className="article lg:mx-16 lg:px-32 px-12">
         <div className="primary-color font-semibold">
           4 min read
         </div>

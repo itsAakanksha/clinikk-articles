@@ -7,7 +7,7 @@ function Cards({ currentItems }) {
     <>
       <div>
         <div className="font-bold p-4 text-2xl md:my-12 my-6">
-          All Article Posts
+      All Chronic Treatments
         </div>
         <div className='flex justify-evenly gap-y-6 flex-wrap'>
           {currentItems.map((item) => (
