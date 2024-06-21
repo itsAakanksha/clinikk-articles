@@ -20,14 +20,19 @@ const Home = () => {
   return (
     <div className="container mx-auto mt-8">
     <Header/>
-       <RecentArticles/>
+{
+      //  <RecentArticles/>
+ }
       <Cards currentItems={currentItems} />
-      <Pagination
-        currentPage={currentPage}
-        paginate={paginate}
-        totalItems={cardData.length}
-        itemsPerPage={itemsPerPage}
-      />
+{
+      // <Pagination
+      //   currentPage={currentPage}
+      //   paginate={paginate}
+      //   totalItems={cardData.length}
+      //   itemsPerPage={itemsPerPage}
+      // />
+      }
+      
     </div>
   );
 };

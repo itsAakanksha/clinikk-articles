@@ -6,6 +6,7 @@ import Card from './Components/Card';
 import RecentArticles from './Components/RecentArticles';
 import Cards from './Components/Cards';
 import ArticleDetail from './Components/ArticleDetail';
+import Footer from './Components/Footer';
 import { Outlet } from 'react-router-dom';
 function App() {
 
@@ -15,7 +16,9 @@ function App() {
   <div className='md:p-20 md:mx-12'>
  
   <Outlet/>
+
   </div>
+  <Footer/>
   
 
   
