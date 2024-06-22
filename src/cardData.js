@@ -1,4 +1,4 @@
-
+import dermatis from '../public/dermatis.jpeg'
 
 const cardData = [
 
@@ -46,7 +46,7 @@ const cardData = [
       id: 7,
       title: 'Dermatitis',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl:'https://plus.unsplash.com/premium_photo-1661475615346-0ec058fec898?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl:dermatis,
       date: "Sunday, 1 Jan 2023",
     },
     {
