@@ -10,7 +10,7 @@ function Card({ item }) {
   };
 
   return (
-    <div className='w-[326px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer' onClick={handleClick}>
+    <div className='w-[384px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2' onClick={handleClick}>
       <div className='h-[225px]'>
         <img 
           src={item.imageUrl} 

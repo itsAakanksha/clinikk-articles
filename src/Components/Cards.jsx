@@ -10,7 +10,7 @@ function Cards({ currentItems }) {
         {" "}
         {currentItems.map((item, index) => (
           <div key={index}>
-            <div className="font-bold p-4 text-3xl mx-auto text-center md:text-left md:mt-16 my-6">
+            <div className="font-bold p-2 text-3xl mx-auto text-center md:text-left md:mt-16 my-6">
               {item.categoryName}
             </div>
             <div className="flex justify-evenly gap-y-6 flex-wrap">
