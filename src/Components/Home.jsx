@@ -4,6 +4,7 @@ import Pagination from './Pagination';
 import cardData from '../cardData.js'; // Import the card data
 import RecentArticles from './RecentArticles.jsx'
 import Header from './Header.jsx';
+import call from '../../public/call.gif'
 const Home = () => {
   const itemsPerPage = 10; // Number of items per page
 
@@ -20,6 +21,8 @@ const Home = () => {
   return (
     <div className="container mx-auto mt-8">
     <Header/>
+
+  
 {
       //  <RecentArticles/>
  }
@@ -32,7 +35,9 @@ const Home = () => {
       //   itemsPerPage={itemsPerPage}
       // />
       }
-      
+      <div className="fixed bottom-6 right-5 z-50 cursor-pointer">
+      <img src={call} alt="Example GIF" className="w-12 h-12" />
+    </div>
     </div>
   );
 };

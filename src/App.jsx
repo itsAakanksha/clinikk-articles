@@ -16,7 +16,7 @@ function App() {
   <div className='md:p-20 md:mx-12'>
  
   <Outlet/>
-
+  
   </div>
   <Footer/>
   
@@ -28,3 +28,5 @@ function App() {
 }
 
 export default App
+
+

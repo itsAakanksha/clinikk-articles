@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card"; // Assuming Card is in the same directory
 import cardData from "../cardData.js"; // Import the card data
+import Cta from "./Cta.jsx";
 
 function Cards({ currentItems }) {
   return (
@@ -18,6 +19,7 @@ function Cards({ currentItems }) {
                   typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
               )}
             </div>
+            <Cta/>
           </div>
         ))}
         <div className="font-bold p-4 text-2xl md:my-12 my-6">
