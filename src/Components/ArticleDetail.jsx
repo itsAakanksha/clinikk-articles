@@ -12,7 +12,7 @@ function ArticleDetail({ articles }) {
   const { id } = useParams();
   // console.log(id)
   let art = null;
-  const cardsArray = cardData.slice(0, 6);
+  const cardsArray = cardData.slice(0, 2);
   // const article = articles.find((article) => article.id === Number(id));
   for (let i = 0; i < articles.length; i++) {
     if (articles[i].article.id === Number(id)) {
@@ -30,15 +30,22 @@ function ArticleDetail({ articles }) {
         <span>Back</span>
       </div>
       <div className="flex flex-col-reverse items-center mt-4 lg:mt-8 ">
-        <div>
+        <div className="">
           <div className="font-bold p-4 text-2xl md:my-12 my-6">
             All Treatments
           </div>
-          <div className="flex justify-evenly gap-y-6 flex-wrap">
-            {cardsArray.map((item) => (
-              <Card key={item.id} item={item} />
-            ))}
-          </div>
+          {cardsArray.map((item, index) => (
+            <div key={index} className="">
+            
+              <div className="flex justify-evenly gap-x-4 gap-y-6 flex-wrap">
+                {item.type.map(
+                  (typeItem, typeIndex) =>
+                    typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
+                )}
+              </div>
+            
+            </div>
+          ))}
         </div>
 
         <div className="article lg:mx-16 lg:px-32 px-8">
