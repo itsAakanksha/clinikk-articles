@@ -591,7 +591,7 @@ const TreatmentData = [
          
         },
         {
-          heading: "Why Choose Clinikk for Dengue Treatment?",
+          heading: "Why Choose Clinikk for Pain Management??",
           content: [
             "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
             "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
