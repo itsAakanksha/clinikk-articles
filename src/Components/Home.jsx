@@ -19,8 +19,8 @@ const Home = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="container mx-auto mt-8">
-    <Header/>
+    <div className="container mx-auto ">
+ <Header/>
 
   
 {

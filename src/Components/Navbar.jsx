@@ -15,7 +15,7 @@ const Navbar = () => {
  
 
   return (
-    <nav className={ `fixed px-6 py-5  w-full bg-primary flex items-center justify-between text-black border-b-2 border-gray-200 bg-white`}>
+    <nav className={ `fixed m-0 px-6 py-5 top-0 left-0  w-full bg-primary flex items-center justify-between text-black border-b-2 border-gray-200 bg-white z-30`}>
       <div className="mx-2 flex gap-6 items-center">
         {/* hamburger */}
         <div className="flex lg:hidden items-center bg-[#E5E5E5] p-2 rounded-xl">
