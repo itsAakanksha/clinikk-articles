@@ -13,7 +13,7 @@ const TreatmentData = [
       id: 1,
       title: "Dengue Treatment and Associated Costs in Bengaluru",
       image1:dengue1,
-      image2:'/public/dengue2.jpeg',
+      image2:dengue2,
       introduction:
         "In Bengaluru and other tropical and subtropical areas, dengue fever—a virus spread by mosquitoes—poses a serious threat to public health. It is imperative to comprehend the complexities of dengue treatment, the associated costs, and the critical factors that must be taken into account during the treatment process as the city faces recurrent outbreaks. For patients and caregivers looking for efficient dengue treatment in Bengaluru, this comprehensive guide is meant to offer insightful information.",
 
@@ -220,7 +220,7 @@ const TreatmentData = [
     article: {
       id: 2,
       title: "Diabetes Management and Associated Costs in Bengaluru",
-      image1:dengue1  ,    image2:'/public/diab2.jpeg',
+      image1:diab1  ,    image2:diab2,
       introduction:
         "Managing diabetes effectively requires the expertise of a dedicated healthcare provider. In Bengaluru, Clinikk stands out as the leading choice for diabetes care, offering comprehensive services and personalised treatment plans. This guide provides detailed insights into diabetes management, associated costs, and why Clinikk is your best option for diabetes care in the city.",
       sections: [
@@ -439,8 +439,8 @@ const TreatmentData = [
       id: 3,
       title:
         "Guide to Pain Management: Back Pain, Shoulder Pain, and Joint Pain in Bengaluru",
-      image1:dengue1,
-      image2:'/public/joint2.jpeg',
+      image1:joint1,
+      image2:joint2,
       introduction:
         "Pain management is a crucial aspect of healthcare, especially for chronic conditions like back pain, shoulder pain, and joint pain. Clinikk has been a leader in providing effective pain management for over 2000 patients in Bengaluru. This comprehensive guide will help you understand the best treatments for these common pain issues, the associated costs, and why Clinikk is your best choice for pain management.",
       sections: [
@@ -788,8 +788,8 @@ const TreatmentData = [
       id: 5,
       title:
         "Guide to Treating Fever, Cold, Cough, and Sore Throat in Bengaluru",
-      image1:dengue1,
-      image2:'/public/fever2.jpeg',
+      image1:fever1,
+      image2:fever2,
       introduction:
         "In Bengaluru, common ailments like fever, cold, cough, and sore throat can be frequent due to changing weather and urban living conditions. Understanding the best treatments for these symptoms and knowing where to find reliable care is essential. Clinikk, a trusted healthcare provider, has conducted over 100,000 consultations in the last five years, making it the top choice for patients seeking effective treatment for these common ailments.",
       sections: [
