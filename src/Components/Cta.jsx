@@ -3,7 +3,7 @@ import React from 'react'
 function Cta() {
   return (
     <>
-    <div className='flex justify-end'>
+    <div className='flex justify-end mr-4'>
     <a
     href="#"
     className="schedule-button inline-flex items-center px-5 py-2.5 bg-[#8c5bcd] text-white text-lg no-underline rounded-full transition-all duration-500 ease-in-out transform hover:bg-[#6d21f2] hover:translate-x-[-5px] font-poppins ml-auto "
