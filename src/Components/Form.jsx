@@ -41,7 +41,7 @@ const Form = () => {
   };
 
   return (
-    <div className=" lg:flex md:justify-between items-center bg-[#7E3AF2]  rounded-3xl m-4 p-4">
+    <div className=" xl:flex xl:justify-between items-center bg-[#7E3AF2]  rounded-3xl m-4 p-4">
       <h2 className="text-2xl font-semibold mb-6">Need Some Help ?</h2>
       <form
         onSubmit={handleSubmit}
