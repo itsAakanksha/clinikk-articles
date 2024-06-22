@@ -5,6 +5,7 @@ import throat from  '../public/sorethroat.jpeg'
 import body from  '../public/body.jpeg'
 import back from  '../public/back.jpeg'
 import joint from  '../public/joint.jpeg'
+import hypertension from '../public/hpertension.jpeg'
 
 const cardData = [
 
@@ -27,7 +28,7 @@ const cardData = [
       id: 12,
       title: 'Hypertension',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://images.unsplash.com/photo-1631558554184-319c88f4f8a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: hypertension,
       date: "Sunday, 1 Jan 2023",
     },
     {

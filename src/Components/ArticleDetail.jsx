@@ -5,6 +5,7 @@ import image3 from "../../public/Image (2).png";
 import image4 from "../../public/Image (3).png";
 import Card from "./Card";
 import cardData from "../cardData.js";
+import Form from "./Form.jsx";
 import { Link, useParams } from "react-router-dom";
 import { TreatmentData } from "../TreatmentData.js"; // Adjust the path as per your project structure
 import Cta from "./Cta.jsx";
@@ -190,6 +191,8 @@ function ArticleDetail({ articles }) {
               <br />
             </>
           )}
+
+          <Form/>
 
           {/* ASSOCIATED COSTS */}
           {art?.sections?.[4] && (
