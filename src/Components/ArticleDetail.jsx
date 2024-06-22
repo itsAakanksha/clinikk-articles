@@ -70,7 +70,7 @@ function ArticleDetail({ articles }) {
           <img
             className="my-4 w-full object-cover  rounded-lg  "
             src={art.image1}
-            alt="art image"
+            alt="a"
           />
 
           {art?.introduction && <p>{art.introduction}</p>}
