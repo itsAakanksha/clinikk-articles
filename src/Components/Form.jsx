@@ -41,11 +41,11 @@ const Form = () => {
   };
 
   return (
-    <div className=" xl:flex xl:justify-between items-center bg-[#7E3AF2]  rounded-3xl m-4 p-4">
+    <div className=" lg:flex lg:justify-between items-center bg-[#7E3AF2]  rounded-3xl m-4 p-4">
       <h2 className="text-2xl font-semibold mb-6">Need Some Help ?</h2>
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-6 rounded-2xl shadow-lg w-full md:flex md:space-x-8 space-y-4  md:space-y-0"
+        className="bg-white p-6 rounded-2xl shadow-lg w-full lg:flex md:space-x-8 space-y-4  md:space-y-0"
       >
         <div className="flex-1">
           <input
