@@ -1,7 +1,7 @@
 const TreatmentData = [
   {
     article: {
-      id: 2,
+      id: 1,
       title: "Dengue Treatment and Associated Costs in Bengaluru",
       introduction:
         "In Bengaluru and other tropical and subtropical areas, dengue fever—a virus spread by mosquitoes—poses a serious threat to public health. It is imperative to comprehend the complexities of dengue treatment, the associated costs, and the critical factors that must be taken into account during the treatment process as the city faces recurrent outbreaks. For patients and caregivers looking for efficient dengue treatment in Bengaluru, this comprehensive guide is meant to offer insightful information.",
@@ -206,7 +206,7 @@ const TreatmentData = [
 
   {
     article: {
-      id: 1,
+      id: 2,
       title: "Diabetes Management and Associated Costs in Bengaluru",
       introduction:
         "Managing diabetes effectively requires the expertise of a dedicated healthcare provider. In Bengaluru, Clinikk stands out as the leading choice for diabetes care, offering comprehensive services and personalised treatment plans. This guide provides detailed insights into diabetes management, associated costs, and why Clinikk is your best option for diabetes care in the city.",

@@ -2,22 +2,28 @@ const cardData = [
 
   {
     categoryName:"Chronic Diseases",
-    type:[ {
+    type:[{
       id: 1,
+      title: 'Dengue',
+      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1664476553552-84de4520b37c?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: "Sunday, 1 Jan 2023",
+    }, {
+      id: 2,
       title: 'Diabetes',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1714678708304-28971a973dc3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 2,
+      id: 12,
       title: 'Hypertension',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: 'https://images.unsplash.com/photo-1631558554184-319c88f4f8a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 3,
+      id: 13,
       title: 'Thyroid Disorders',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1663047254383-0e4d7aa779bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -53,7 +59,7 @@ const cardData = [
   {
     categoryName:"Acute Conditions",
     type:[ {
-      id: 4,
+      id: 5,
       title: ' Fever',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1664910150142-c5fee1b9c1b7?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -78,7 +84,7 @@ const cardData = [
    {
     categoryName:"Pain Management",
     type:[ {
-      id: 4,
+      id: 5,
       title: ' Joint Pain',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1664910605048-44c8450c0356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
