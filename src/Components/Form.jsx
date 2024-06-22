@@ -87,9 +87,9 @@ const Form = () => {
         <div className="flex-1 flex items-end">
           <button
             type="submit"
-            className="w-full bg-indigo-500 text-white p-2 rounded-full hover:bg-indigo-600 transition"
+            className="w-full bg-indigo-500 text-white p-2 text-sm rounded-full hover:bg-indigo-600 transition"
           >
-            Request Call back
+            Request Call Back
           </button>
         </div>
       </form>
