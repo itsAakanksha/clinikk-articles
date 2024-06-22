@@ -57,8 +57,9 @@ function ArticleDetail({ articles }) {
               </div>
             ))}
             <Cta/>
+          
         </div>
-
+        <Cta/>
         <div className="article lg:mx-16 lg:px-32 px-8">
        
           {art?.title && (
@@ -326,6 +327,7 @@ function ArticleDetail({ articles }) {
             </>
           )}
         </div>
+        
       </div>
     </>
   );
