@@ -1,4 +1,10 @@
 import dermatis from '../public/dermatis.jpeg'
+import fever from '../public/fever.jpeg'
+import headache from  '../public/headache.jpeg'
+import throat from  '../public/sorethroat.jpeg'
+import body from  '../public/body.jpeg'
+import back from  '../public/back.jpeg'
+import joint from  '../public/joint.jpeg'
 
 const cardData = [
 
@@ -7,13 +13,13 @@ const cardData = [
     type:[{
       id: 1,
       title: 'Dengue',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"Dengue fever is caused by the dengue virus (DENV), transmitted primarily by the Aedes aegypti mosquito. There are four distinct serotypes of the dengue virus: DENV-1, DENV-2, DENV-3, and DENV-4.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1664476553552-84de4520b37c?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     }, {
       id: 2,
       title: 'Diabetes',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"Diabetes is a chronic health condition characterized by elevated blood sugar levels (glucose) due to the body's inability to produce enough insulin or to properly use insulin. Insulin, produced by the pancreas, regulates glucose uptake into cells for energy",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1714678708304-28971a973dc3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
@@ -63,22 +69,22 @@ const cardData = [
     type:[ {
       id: 5,
       title: ' Fever',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664910150142-c5fee1b9c1b7?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      description:"Fever is a temporary increase in body temperature, usually in response to an infection or illness. It's a common symptom that indicates the body's immune system is fighting off pathogens. Fever is typically defined as a body temperature above 100.4°F (38°C) when taken orally.",
+      imageUrl: fever,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 10,
       title: 'Sore throat',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664299026240-c118fdae8270?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: throat,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 15,
       title: 'Headaches',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://images.unsplash.com/photo-1618498390344-445c804f2ac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl:headache,
       date: "Sunday, 1 Jan 2023",
     },] 
   }
@@ -88,22 +94,22 @@ const cardData = [
     type:[ {
       id: 3,
       title: ' Joint Pain',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664910605048-44c8450c0356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      description:"Joint pain refers to discomfort, soreness, or inflammation in any of the body's joints, where two or more bones meet. It can vary in intensity, ranging from mild to severe, and may be acute (short-term) or chronic (long-lasting).",
+      imageUrl: joint,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 21,
       title: ' Back Pain',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1661779360652-b067e858ad02?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: back,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 22,
       title: 'Body Aches',
       description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: 'https://images.unsplash.com/photo-1585917138424-61cf3ee524d9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: body,
       date: "Sunday, 1 Jan 2023",
     },] 
   },
@@ -112,7 +118,7 @@ const cardData = [
     type:[ {
       id: 4,
       title: ' Viral infections',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"Respiratory infections are increasingly common primarily due to rising pollution levels and changing weather conditions. Understanding the best treatments for respiratory issues and knowing where to find reliable care is essential.",
       imageUrl: 'https://images.unsplash.com/photo-1583324113626-70df0f4deaab?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
