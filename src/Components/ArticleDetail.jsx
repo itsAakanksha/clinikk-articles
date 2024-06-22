@@ -68,9 +68,9 @@ function ArticleDetail({ articles }) {
           )}
 
           <img
-            className="my-4 w-full object-cover  "
-            src={image}
-            alt="art Image"
+            className="my-4 w-full object-cover rounded-lg rounded-lg  "
+            src={art.image1}
+            alt="art image"
           />
 
           {art?.introduction && <p>{art.introduction}</p>}
@@ -148,9 +148,9 @@ function ArticleDetail({ articles }) {
                 </ul>
               </div>
               <img
-                className="my-4 w-full object-cover"
-                src={image2}
-                alt="art Image"
+                className="my-4 w-full object-cover rounded-lg"
+                src={art.image2}
+                alt="art Image2"
               />
               <br />
             </>
@@ -223,12 +223,7 @@ function ArticleDetail({ articles }) {
               {art.sections[4]?.totalCost?.desc && (
                 <div>{art.sections[4].totalCost.desc}</div>
               )}
-              <img
-                className="my-4  w-full object-cover"
-                src={image3}
-                alt="art Image"
-              />
-              <br />
+              
             </>
           )}
 
@@ -258,11 +253,7 @@ function ArticleDetail({ articles }) {
                   <li key={index}>{list}</li>
                 ))}
               </ul>
-              <img
-                className="my-4 w-full object-cover"
-                src={image4}
-                alt="art Image"
-              />
+              
               <br />
             </>
           )}
