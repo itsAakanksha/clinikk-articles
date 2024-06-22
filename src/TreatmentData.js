@@ -610,7 +610,7 @@ const TreatmentData = [
     article: {
       id: 4,
       title: "Guide to Treating Respiratory Infections in Bengaluru",
-      image1:dengue1,
+      
       
          introduction:
         "Respiratory infections are increasingly common in Bengaluru, primarily due to rising pollution levels and changing weather conditions. Understanding the best treatments for respiratory issues and knowing where to find reliable care is essential. Clinikk, a trusted healthcare provider, has managed respiratory issues for over 6000 patients over the years, making it the top choice for effective treatment. This comprehensive guide will help you understand respiratory infections, the associated costs, and why Clinikk is your best choice for respiratory care.",
