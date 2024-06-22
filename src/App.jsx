@@ -12,7 +12,7 @@ function App() {
 
   return(
     <>
-    <div className=''>
+   
   <Navbar/>
   <div className='md:p-20 md:mx-12 pt-20 '>
 
@@ -20,7 +20,7 @@ function App() {
   
   </div>
   <Footer/>
-  </div>
+
   
 
   

@@ -22,17 +22,7 @@ function Cards({ currentItems }) {
             <Cta/>
           </div>
         ))}
-        <div className="font-bold p-4 text-2xl md:my-12 my-6">
-          All Chronic Treatments
-        </div>
-        {currentItems.map((item, index) => (
-          <div className="flex justify-evenly gap-y-6 flex-wrap">
-            {item.type.map(
-              (typeItem, typeIndex) =>
-                typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
-            )}
-          </div>
-        ))}
+      
       </div>
     </>
   );
