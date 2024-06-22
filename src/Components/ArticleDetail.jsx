@@ -41,7 +41,7 @@ function ArticleDetail({ articles }) {
       </div>
       </Link>
       <div className="flex flex-col-reverse items-center  lg:mt-8 ">
-        <div className="mb-6">
+        <div className="mb-6 m-2">
           <div className="font-bold p-4 text-2xl md:my-12 my-6">
             All Treatments
           </div>
