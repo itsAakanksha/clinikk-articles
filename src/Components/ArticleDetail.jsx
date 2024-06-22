@@ -80,13 +80,13 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[0] && (
             <>
               {art.sections[0]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[0].heading}
                 </h2>
               )}
-              <div>
-                {art.sections[0]?.content?.contentDesc && (
-                  <p className="my-2">{art.sections[0].content.contentDesc}</p>
+              <div className="my-4">
+                {art.sections[0]?.content?.contDesc && (
+                  <p className="my-2">{art.sections[0].content.contDesc}</p>
                 )}
                 <ul>
                   {art.sections[0]?.content?.contUl?.map((list, index) => (
@@ -102,13 +102,13 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[1] && (
             <>
               {art.sections[1]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[1].heading}
                 </h2>
               )}
-              <div>
-                {art.sections[1]?.content?.contentDesc && (
-                  <p className="my-2">{art.sections[1].content.contentDesc}</p>
+              <div className="my-4">
+                {art.sections[1]?.content?.contDesc && (
+                  <p className="my-2">{art.sections[1].content.contDesc}</p>
                 )}
                 <ul>
                   {art.sections[1]?.content?.map((list, index) => (
@@ -124,11 +124,11 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[2] && (
             <>
               {art.sections[2]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[2].heading}
                 </h2>
               )}
-              <div>
+              <div className="my-4">
                 {art.sections[2]?.description && (
                   <p className="my-4">{art.sections[2].description}</p>
                 )}
@@ -160,7 +160,7 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[3] && (
             <>
               {art.sections[3]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[3].heading}
                 </h2>
               )}
@@ -194,12 +194,12 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[4] && (
             <>
               {art.sections[4]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[4].heading}
                 </h2>
               )}
               {art.sections[4]?.description && (
-                <div>{art.sections[4].description}</div>
+                <div className="my-4">{art.sections[4].description}</div>
               )}
               <ol>
                 {art.sections[4]?.sections?.map((section, index) => (
@@ -216,7 +216,7 @@ function ArticleDetail({ articles }) {
                 ))}
               </ol>
               {art.sections[4]?.totalCost?.title && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold my-3">
                   {art.sections[4].totalCost.title}
                 </h2>
               )}
@@ -236,11 +236,11 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[5] && (
             <>
               {art.sections[5]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[5].heading}
                 </h2>
               )}
-              {art.sections[5]?.content && <div>{art.sections[5].content}</div>}
+              {art.sections[5]?.content && <div className="my-4">{art.sections[5].content}</div>}
               <br />
             </>
           )}
@@ -249,11 +249,11 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[6] && (
             <>
               {art.sections[6]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[6].heading}
                 </h2>
               )}
-              <ul>
+              <ul className="my-4">
                 {art.sections[6]?.content?.map((list, index) => (
                   <li key={index}>{list}</li>
                 ))}
@@ -271,11 +271,11 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[7] && (
             <>
               {art.sections[7]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   {art.sections[7].heading}
                 </h2>
               )}
-              <div>
+              <div className="my-4">
                 <ol>
                   {art.sections[7]?.content?.map((item, index) => {
                     const [boldText, normalText] = item.split(":");
@@ -296,11 +296,16 @@ function ArticleDetail({ articles }) {
 
           <div className="preventive-measures">
             {art.sections[8]?.heading && (
-              <h2 className="text-xl font-semibold">
+              <h2 className="text-2xl font-semibold ">
                 {art.sections[8].heading}
               </h2>
             )}
-            <p>{art.sections[8]?.description}</p>
+            {art.sections[8]?.description && (
+              <p>
+                {art.sections[8].description}
+              </p>
+            )}
+         
             <ol>
               {art.sections[8].content?.map((item, index) => (
                 <li key={index}>
@@ -322,11 +327,11 @@ function ArticleDetail({ articles }) {
           {art?.sections?.[9] && (
             <>
               {art.sections[9]?.heading && (
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-2xl font-semibold my-2">
                   {art.sections[9].heading}
                 </h2>
               )}
-              {art.sections[9]?.content && <div>{art.sections[9].content}</div>}
+              {art.sections[9]?.content &&  <div dangerouslySetInnerHTML={{ __html: art.sections[9].content} } ></div>}
             </>
           )}
         </div>
