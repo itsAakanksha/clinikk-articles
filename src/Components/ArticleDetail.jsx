@@ -60,7 +60,7 @@ function ArticleDetail({ articles }) {
         </div>
 
         <div className="article lg:mx-16 lg:px-32 px-8">
-          <div className="primary-color font-semibold">4 min read</div>
+       
           {art?.title && (
             <h1 className="text-4xl font-semibold my-8 text-center">
               {art.title}
