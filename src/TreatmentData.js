@@ -1,7 +1,7 @@
 const TreatmentData = [
   {
     article: {
-      id: 1,
+      id: 2,
       title: "Dengue Treatment and Associated Costs in Bengaluru",
       introduction:
         "In Bengaluru and other tropical and subtropical areas, dengue fever—a virus spread by mosquitoes—poses a serious threat to public health. It is imperative to comprehend the complexities of dengue treatment, the associated costs, and the critical factors that must be taken into account during the treatment process as the city faces recurrent outbreaks. For patients and caregivers looking for efficient dengue treatment in Bengaluru, this comprehensive guide is meant to offer insightful information.",
@@ -206,7 +206,7 @@ const TreatmentData = [
 
   {
     article: {
-      id: 2,
+      id: 1,
       title: "Diabetes Management and Associated Costs in Bengaluru",
       introduction:
         "Managing diabetes effectively requires the expertise of a dedicated healthcare provider. In Bengaluru, Clinikk stands out as the leading choice for diabetes care, offering comprehensive services and personalised treatment plans. This guide provides detailed insights into diabetes management, associated costs, and why Clinikk is your best option for diabetes care in the city.",
@@ -453,36 +453,66 @@ const TreatmentData = [
         
         },
         {
-          heading: "Effective Dengue Treatment",
-          description:
-            "While there is no specific antiviral treatment for dengue, supportive care is essential to manage symptoms and prevent complications. Here are the key components of effective dengue treatment:",
+          heading: "Effective Pain Management",
+         
           subsections: [
             {
-              subheading: "Hydration",
+              subheading: "Back Pain Treatment",
               content: {
-                contDesc:
-                  "In order to effectively manage dengue, it is imperative to ensure that one is adequately hydrated. Patients are encouraged to drink plenty of fluids, including water, oral rehydration solutions (ORS), coconut water, and clear soup. In severe cases, intravenous (IV) fluids may be administered to prevent dehydration and keep electrolytes in balance.",
+                
+                contUl: [
+                 "Physical Therapy: Tailored exercises to strengthen back muscles and improve posture.",
+                 "Manual Therapy: Techniques like massage and spinal manipulation to relieve pain.",
+                  "Lifestyle Modifications: Advice on posture, ergonomics, and weight management.",
+                  "Heat and Cold Therapy: Applying heat or cold packs to reduce inflammation and pain.",
+                  "Medication Management: Under doctor’s supervision for pain relief."
+                ],
               },
             },
             {
-              subheading: "Pain Relief",
+              subheading: "Shoulder Pain Treatment",
               content: {
-                contDesc:
-                  "Fever and pain associated with dengue can be managed with paracetamol (acetaminophen). Non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin and ibuprofen should be avoided, as they can increase the risk of bleeding.",
+               
+                contUl: [
+                  "Physical Therapy: Exercises to improve range of motion and strengthen shoulder muscles.",
+                  "Manual Therapy: Techniques to alleviate pain and improve function.",
+                  "Lifestyle Modifications: Ergonomic advice and activity modifications.",
+                  "Heat and Cold Therapy: To manage pain and inflammation.",
+                  "Medication Management: Pain relief under a doctor’s guidance.",
+                ],
               },
             },
             {
-              subheading: "Monitoring and Hospitalization",
+              subheading: "Joint Pain Treatment",
               content: {
-                contDesc:
-                  "Regular monitoring of vital signs, platelet count, and hematocrit levels is crucial. Patients with severe symptoms, such as persistent vomiting, abdominal pain, bleeding, or signs of shock, may require hospitalization. Intensive care may be necessary for patients with severe dengue.",
+                
+                contUl: [
+                  "Physical Therapy: Exercises to maintain mobility and strengthen muscles around the joints.",
+                  "Strength Training: Using weights or resistance bands to build muscle.",
+                  "Flexibility Exercises: Yoga and stretching to improve overall well-being.",
+                ],
               },
             },
             {
-              subheading: "Rest",
+              subheading: "Monitoring Blood Sugar Levels",
               content: {
                 contDesc:
-                  "Adequate rest is essential for recovery. Patients should avoid strenuous activities and allow their bodies to heal.",
+                  "Regular monitoring helps track blood sugar levels and adjust treatment plans as needed. Methods include:",
+                contUl: [
+                  "Self-Monitoring: Using a glucometer to check blood sugar levels at home.",
+                  "Continuous Glucose Monitoring (CGM): A device that provides real-time glucose readings.",
+                ],
+              },
+            },
+            {
+              subheading: "Education and Support",
+              content: {
+                contDesc:
+                  "Patient education and support are critical for effective diabetes management. This includes:",
+                contUl: [
+                  "Diabetes Education Programs: Providing information on managing diabetes, diet, and exercise.",
+                  "Support Groups: Offering emotional support and sharing experiences with others living with diabetes.",
+                ],
               },
             },
           ],
@@ -616,44 +646,72 @@ const TreatmentData = [
         
         },
         {
-          heading: "Effective Dengue Treatment",
-          description:
-            "While there is no specific antiviral treatment for dengue, supportive care is essential to manage symptoms and prevent complications. Here are the key components of effective dengue treatment:",
+          heading: "Effective Treatment for Respiratory Infections",
+          
           subsections: [
             {
-              subheading: "Hydration",
+              subheading: "Common Cold Treatment",
               content: {
-                contDesc:
-                  "In order to effectively manage dengue, it is imperative to ensure that one is adequately hydrated. Patients are encouraged to drink plenty of fluids, including water, oral rehydration solutions (ORS), coconut water, and clear soup. In severe cases, intravenous (IV) fluids may be administered to prevent dehydration and keep electrolytes in balance.",
+               
+                contUl: [
+                  "Hydration: Drink plenty of fluids like water, herbal teas, and clear broths.",
+                  "Oral Medications: Such as metformin, sulfonylureas, and DPP-4 inhibitors, which help control blood sugar levels.",
+                  "Injectable Medications: GLP-1 receptor agonists that help regulate blood sugar.",
+                ],
               },
             },
             {
-              subheading: "Pain Relief",
+              subheading: "Bronchitis Treatment",
               content: {
                 contDesc:
-                  "Fever and pain associated with dengue can be managed with paracetamol (acetaminophen). Non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin and ibuprofen should be avoided, as they can increase the risk of bleeding.",
+                  "A balanced diet is vital for diabetes management. Key dietary recommendations include:",
+                contUl: [
+                  "Carbohydrate Counting: Managing carbohydrate intake to control blood sugar levels.",
+                  "Healthy Eating: Incorporating whole grains, vegetables, lean proteins, and healthy fats.",
+                  "Portion Control: Eating smaller, more frequent meals to maintain stable blood sugar levels.",
+                ],
               },
             },
             {
-              subheading: "Monitoring and Hospitalization",
+              subheading: "Pneumonia Treatment",
               content: {
                 contDesc:
-                  "Regular monitoring of vital signs, platelet count, and hematocrit levels is crucial. Patients with severe symptoms, such as persistent vomiting, abdominal pain, bleeding, or signs of shock, may require hospitalization. Intensive care may be necessary for patients with severe dengue.",
+                  "Regular physical activity helps improve insulin sensitivity and manage blood sugar levels. Recommended activities include:",
+                contUl: [
+                  "Aerobic Exercise: Such as walking, cycling, and swimming.",
+                  "Strength Training: Using weights or resistance bands to build muscle.",
+                  "Flexibility Exercises: Yoga and stretching to improve overall well-being.",
+                ],
               },
             },
             {
-              subheading: "Rest",
+              subheading: "Sinusitis Treatment",
               content: {
                 contDesc:
-                  "Adequate rest is essential for recovery. Patients should avoid strenuous activities and allow their bodies to heal.",
+                  "Regular monitoring helps track blood sugar levels and adjust treatment plans as needed. Methods include:",
+                contUl: [
+                  "Self-Monitoring: Using a glucometer to check blood sugar levels at home.",
+                  "Continuous Glucose Monitoring (CGM): A device that provides real-time glucose readings.",
+                ],
+              },
+            },
+            {
+              subheading: "Asthma Management",
+              content: {
+                contDesc:
+                  "Patient education and support are critical for effective diabetes management. This includes:",
+                contUl: [
+                  "Diabetes Education Programs: Providing information on managing diabetes, diet, and exercise.",
+                  "Support Groups: Offering emotional support and sharing experiences with others living with diabetes.",
+                ],
               },
             },
           ],
         },
         {
-            heading: "Associated Costs of Pain Management in Bengaluru ",
+            heading: "Associated Costs of Respiratory Care in Bengaluru ",
             description:
-              "The cost of pain management can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
+              "The cost of treating respiratory infections can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
             sections: [
               {
                 title: "Consultation Fees",
@@ -716,15 +774,15 @@ const TreatmentData = [
               },
             ],
             totalCost: {
-              title: "Total Cost of Diabetes Management",
-              desc: "The total cost of managing diabetes in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for diabetes management.",
+              title: "Total Cost of Respiratory Care",
+              desc: "The total cost of managing respiratory issues in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for respiratory care.",
             },
           },
         {
          
         },
         {
-          heading: "Why Choose Clinikk for Dengue Treatment?",
+          heading: "Why Choose Clinikk for Respiratory Care?",
           content: [
             "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
             "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
