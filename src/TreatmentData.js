@@ -486,7 +486,7 @@ const TreatmentData = [
           ],
         },
         {
-          heading: "Associated Costs of Pain Management in Bengaluru ",
+          heading: "Associated Costs of Pain Management in Bengaluru",
           description:
             "The cost of pain management can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
           sections: [
@@ -497,55 +497,61 @@ const TreatmentData = [
                   name: "Initial Consultation",
                   costRange: "INR 500 - INR 2000",
                 },
-                { name: "Follow-up Visits", costRange: "INR 300 - INR 1500" },
+                {
+                  name: "Follow-up Visits",
+                  costRange: "INR 300 - INR 1500",
+                },
               ],
             },
             {
               title: "Diagnostic Tests",
               items: [
                 {
-                  name: "X-rays:",
-                  costRange: "INR 100 - INR 1500",
+                  name: "X-rays",
+                  costRange: "INR 500 - INR 1500",
                 },
-                { name: "MRI Scans:", costRange: " INR 3000 - INR 8000" },
-                { name: "OGTT", costRange: "INR 500 - INR 1000" },
                 {
-                  name: "Blood Tests:",
-                  costRange: "INR 100 - INR 300",
+                  name: "MRI Scans",
+                  costRange: "INR 3000 - INR 8000",
+                },
+                {
+                  name: "Blood Tests",
+                  costRange: "INR 300 - INR 1000",
                 },
               ],
             },
             {
-              title: "Medications",
+              title: "Physical Therapy",
               items: [
-                { name: "Insulin", costRange: "INR 500 - INR 3000 per month" },
                 {
-                  name: "Oral Medications",
+                  name: "Session Fees",
+                  costRange: "INR 500 - INR 1500 per session",
+                },
+                {
+                  name: "Packages",
+                  costRange: "INR 5000 - INR 20,000 for multiple sessions",
+                },
+              ],
+            },
+            {
+              title: "Manual Therapy",
+              items: [
+                {
+                  name: "Session Fees",
+                  costRange: "INR 800 - INR 2000 per session",
+                },
+              ],
+            },
+            {
+              title: "Medication Management",
+              items: [
+                {
+                  name: "Pain Relief Medications",
                   costRange: "INR 200 - INR 1500 per month",
                 },
                 {
-                  name: "Injectable Medications",
-                  costRange: "INR 2000 - INR 8000 per month",
-                },
-              ],
-            },
-            {
-              title: "Monitoring Devices",
-              items: [
-                { name: "Glucometer", costRange: "INR 800 - INR 2000" },
-                { name: "CGM Device", costRange: "INR 4000 - INR 15,000" },
-              ],
-            },
-            {
-              title: "Diet and Lifestyle Programs",
-              items: [
-                {
-                  name: "Dietitian Consultation",
-                  costRange: "INR 500 - INR 2000 per session",
-                },
-                {
-                  name: "Exercise Programs",
-                  costRange: "INR 1000 - INR 5000 per month",
+                  name: "Anti-inflammatory Medications",
+                  costRange: "INR 300 - INR 2000 per month",
                 },
               ],
             },
@@ -554,7 +560,10 @@ const TreatmentData = [
             title: "Total Cost of Pain Management",
             desc: "The total cost of managing pain in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for pain management.",
           },
-        },
+        }
+        
+       ,
+        
         {},
         {
           heading: "Why Choose Clinikk for Pain Management??",
@@ -769,141 +778,87 @@ const TreatmentData = [
           heading: "Understanding Common Symptoms",
           content: {
             contDesc:
-              "Back pain can range from a dull, constant ache to a sudden, sharp pain that makes movement difficult. It can be caused by various factors, including:",
+              "Fever is a temporary increase in body temperature, often due to an infection. Symptoms of fever include:",
             contUl: [
-              " Poor posture",
-              "  Muscle or ligament strain",
-              "  Bulging or ruptured discs",
-              " Arthritis",
-              "   Osteoporosis",
+              " Elevated body temperature",
+              " Sweating",
+              " Chills and shivering",
+              "Headache",
+              "Muscle aches",
             ],
           },
         },
         {},
         {},
-        {
-          heading: "Effective Dengue Treatment",
-          description:
-            "While there is no specific antiviral treatment for dengue, supportive care is essential to manage symptoms and prevent complications. Here are the key components of effective dengue treatment:",
+      {
+          heading: "Effective Treatment for Fever, Cold, Cough, and Sore Throat",
           subsections: [
             {
-              subheading: "Hydration",
+              subheading: "Fever Treatment",
               content: {
-                contDesc:
-                  "In order to effectively manage dengue, it is imperative to ensure that one is adequately hydrated. Patients are encouraged to drink plenty of fluids, including water, oral rehydration solutions (ORS), coconut water, and clear soup. In severe cases, intravenous (IV) fluids may be administered to prevent dehydration and keep electrolytes in balance.",
+                contUl: [
+                  "Hydration: Drink plenty of fluids like water, herbal teas, and clear broths.",
+                  "Rest: Ensure plenty of rest to help the body recover.",
+                  "Cool Compresses: Apply a cool, damp cloth to the forehead.",
+                ],
               },
             },
             {
-              subheading: "Pain Relief",
+              subheading: "Cold Treatment",
               content: {
-                contDesc:
-                  "Fever and pain associated with dengue can be managed with paracetamol (acetaminophen). Non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin and ibuprofen should be avoided, as they can increase the risk of bleeding.",
+                contUl: [
+                  "Hydration: Keep hydrated with water, clear soups, and electrolyte drinks.",
+                  "Rest: Adequate rest is crucial for recovery.",
+                  "Steam Inhalation: Inhaling steam can help clear nasal passages.",
+                ],
               },
             },
             {
-              subheading: "Monitoring and Hospitalization",
+              subheading: "Cough Treatment",
               content: {
-                contDesc:
-                  "Regular monitoring of vital signs, platelet count, and hematocrit levels is crucial. Patients with severe symptoms, such as persistent vomiting, abdominal pain, bleeding, or signs of shock, may require hospitalization. Intensive care may be necessary for patients with severe dengue.",
+                contUl: [
+                  "Hydration: Drink warm fluids to soothe the throat and loosen mucus.",
+                  "Humidifier: Use a humidifier to add moisture to the air.",
+                  "Honey: A teaspoon of honey can help soothe a sore throat and reduce cough.",
+                ],
               },
             },
             {
-              subheading: "Rest",
+              subheading: "Sore Throat Treatment",
               content: {
-                contDesc:
-                  "Adequate rest is essential for recovery. Patients should avoid strenuous activities and allow their bodies to heal.",
+                contUl: [
+                  "Salt Water Gargle: Gargling with warm salt water can reduce swelling and discomfort.",
+                  "Hydration: Drink warm fluids like herbal teas and clear soups.",
+                  "Throat Lozenges: Suck on throat lozenges to soothe the throat.",
+                ],
               },
             },
           ],
         },
-        {
-          heading: "Associated Costs of Pain Management in Bengaluru ",
-          description:
-            "The cost of pain management can vary depending on the severity of the condition, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
-          sections: [
-            {
-              title: "Consultation Fees",
-              items: [
-                {
-                  name: "Initial Consultation",
-                  costRange: "INR 500 - INR 2000",
-                },
-                { name: "Follow-up Visits", costRange: "INR 300 - INR 1500" },
-              ],
-            },
-            {
-              title: "Diagnostic Tests",
-              items: [
-                {
-                  name: "X-rays:",
-                  costRange: "INR 100 - INR 1500",
-                },
-                { name: "MRI Scans:", costRange: " INR 3000 - INR 8000" },
-                { name: "OGTT", costRange: "INR 500 - INR 1000" },
-                {
-                  name: "Blood Tests:",
-                  costRange: "INR 100 - INR 300",
-                },
-              ],
-            },
-            {
-              title: "Medications",
-              items: [
-                { name: "Insulin", costRange: "INR 500 - INR 3000 per month" },
-                {
-                  name: "Oral Medications",
-                  costRange: "INR 200 - INR 1500 per month",
-                },
-                {
-                  name: "Injectable Medications",
-                  costRange: "INR 2000 - INR 8000 per month",
-                },
-              ],
-            },
-            {
-              title: "Monitoring Devices",
-              items: [
-                { name: "Glucometer", costRange: "INR 800 - INR 2000" },
-                { name: "CGM Device", costRange: "INR 4000 - INR 15,000" },
-              ],
-            },
-            {
-              title: "Diet and Lifestyle Programs",
-              items: [
-                {
-                  name: "Dietitian Consultation",
-                  costRange: "INR 500 - INR 2000 per session",
-                },
-                {
-                  name: "Exercise Programs",
-                  costRange: "INR 1000 - INR 5000 per month",
-                },
-              ],
-            },
-          ],
-          totalCost: {
-            title: "Total Cost of Diabetes Management",
-            desc: "The total cost of managing diabetes in Bengaluru can range from INR 2000 to INR 50,000 or more per month, depending on the treatment plan and patient needs. It is essential to consider these costs when planning for diabetes management.",
-          },
-        },
+        
+       {},
         {},
         {
-          heading: "Why Choose Clinikk for Dengue Treatment?",
+          heading: "Why Choose Clinikk for Treatment?",
           content: [
-            "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
-            "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
-            "Patient-Centric Approach: We prioritise your health and well-being, offering personalised care tailored to your needs.",
-            "Affordable Dengue Treatment Cost: We offer transparent and affordable pricing, ensuring you receive the best care without financial strain.",
-            "Comprehensive Care: From outpatient consultations to hospitalisation, Clinikk provides a full spectrum of services to manage dengue effectively.",
+            "Experienced Doctors: Clinikk’s doctors are highly experienced in treating respiratory infections. With over 6000 patients managed over the years, our doctors provide expert care for common colds, bronchitis, pneumonia, sinusitis, and asthma. If you're searching for a 'chest infection doctor near me' or 'cough doctor near me,' Clinikk is the ideal choice.",
+            "Convenient Locations: Clinikk has multiple clinics across Bengaluru, making it easy to find an ENT doctor or respiratory specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes.",
+            "State-of-the-Art Facilities: Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need a simple check-up or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs.",
+            "Patient-Centric Approach: At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your respiratory issues and provide the best possible treatment.",
+            "Affordable Care: Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare.",
+            "Comprehensive Care: From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your respiratory issues effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
           ],
         },
         {},
         {},
 
         {
-          heading: "Conclusion",
-          content:
-            "Dengue fever is a serious health concern in Bengaluru, but with timely diagnosis, effective treatment, and preventive measures, it can be managed successfully. Clinikk offers comprehensive dengue care with experienced doctors, state-of-the-art facilities, and a patient-centric approach. By understanding the treatment process and associated costs, you can make informed decisions for yourself and your loved ones. Remember, early detection and proper management are key to overcoming dengue. ",
+          heading: "Finding the Best Care Near You",
+          content: `
+          <p>When searching for "chest infection doctor near me" or "chest congestion treatment near me," look no further than Clinikk. Our clinics are strategically located across Bengaluru to ensure you have access to top-notch medical care whenever you need it.</p> <br/>
+          <p>For more information or to book an appointment, visit our website at clinikk.com. Experience exceptional healthcare services at Clinikk – your trusted partner in health.</p>  <br/>
+          <p>By choosing Clinikk, you're not just getting medical care; you're joining a community dedicated to your health and well-being. Trust us for all your healthcare needs and experience the difference of superior care provided by our dedicated team of professionals.</p>
+        `,
         },
       ],
     },
