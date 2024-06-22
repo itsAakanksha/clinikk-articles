@@ -35,9 +35,7 @@ const Home = () => {
       //   itemsPerPage={itemsPerPage}
       // />
       }
-      <div className="fixed bottom-6 right-5 z-50 cursor-pointer">
-      <img src={call} alt="Example GIF" className="w-12 h-12" />
-    </div>
+  
     </div>
   );
 };

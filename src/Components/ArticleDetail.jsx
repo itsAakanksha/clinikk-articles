@@ -27,7 +27,7 @@ function ArticleDetail({ articles }) {
   return (
     <>
     <Link to={'/'}>
-      <div className="border-y-2 p-3 flex items-center cursor-pointer ">
+      <div className="mt-3 p-3 flex items-center cursor-pointer ">
         <span>   <svg
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function ArticleDetail({ articles }) {
         <span>Back</span>
       </div>
       </Link>
-      <div className="flex flex-col-reverse items-center mt-4 lg:mt-8 ">
+      <div className="flex flex-col-reverse items-center  lg:mt-8 ">
         <div className="mb-6">
           <div className="font-bold p-4 text-2xl md:my-12 my-6">
             All Treatments
@@ -62,7 +62,7 @@ function ArticleDetail({ articles }) {
         <div className="article lg:mx-16 lg:px-32 px-8">
        
           {art?.title && (
-            <h1 className="text-4xl font-semibold my-8 text-center">
+            <h1 className="text-4xl font-semibold my-10 text-center">
               {art.title}
             </h1>
           )}

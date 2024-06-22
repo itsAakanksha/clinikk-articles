@@ -19,9 +19,9 @@ function Card({ item }) {
         />
       </div>
       <div className='flex flex-col gap-2 p-4 flex-grow '>
-        <div className='primary-color font-semibold'>{item.date}</div>
+       
         <h3 className='text-2xl font-semibold'>{item.title}</h3>
-        <p className='text-[#667085] line-clamp-3'>
+        <p className='text-[#667085] line-clamp-4'>
           {item.description}
         </p>
       </div>
