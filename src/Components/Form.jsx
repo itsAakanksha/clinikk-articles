@@ -41,8 +41,8 @@ const Form = () => {
   };
 
   return (
-    <div className=" lg:flex lg:justify-between items-center bg-[#F3F3F6]  rounded-3xl m-4 p-4 lg:p-7">
-      <h2 className="md:text-3xl text-2xl font-semibold ">Are You Looking For Doctor Appointment ?</h2>
+    <div className=" lg:flex lg:justify-between items-center bg-[#F3F3F6]  rounded-3xl my-4 p-4 lg:p-7">
+      <h2 className="lg:text-3xl text-2xl font-semibold ">Are You Looking For Doctor Appointment ?</h2>
       <div>
       <Cta/>
       </div>
