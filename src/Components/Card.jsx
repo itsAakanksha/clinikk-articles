@@ -10,7 +10,7 @@ function Card({ item }) {
   };
 
   return (
-    <div className='w-[384px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2' onClick={handleClick}>
+    <div className='w-[360px] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2' onClick={handleClick}>
       <div className='h-[225px]'>
         <img 
           src={item.imageUrl} 
@@ -21,7 +21,7 @@ function Card({ item }) {
       <div className='flex flex-col gap-2 p-4 flex-grow '>
        
         <h3 className='text-2xl font-semibold'>{item.title}</h3>
-        <p className='text-[#667085] line-clamp-4'>
+        <p className='text-[#667085] line-clamp-6'>
           {item.description}
         </p>
       </div>

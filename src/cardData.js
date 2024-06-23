@@ -27,14 +27,14 @@ const cardData = [
     {
       id: 12,
       title: 'Hypertension',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.  Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: hypertension,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 13,
       title: 'Thyroid Disorders',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla,  Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1663047254383-0e4d7aa779bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },]
@@ -45,21 +45,21 @@ const cardData = [
     type:[ {
       id: 6,
       title: ' Allergic reactions',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam. Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1661537390414-33d7ad495159?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 7,
       title: 'Dermatitis',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl:dermatis,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 8,
       title: ' Fungal Infections',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1677545889722-423483ddd9f9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },]
@@ -77,14 +77,14 @@ const cardData = [
     {
       id: 10,
       title: 'Sore throat',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: throat,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 15,
       title: 'Headaches',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl:headache,
       date: "Sunday, 1 Jan 2023",
     },] 
@@ -102,14 +102,14 @@ const cardData = [
     {
       id: 21,
       title: ' Back Pain',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: back,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 22,
       title: 'Body Aches',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: body,
       date: "Sunday, 1 Jan 2023",
     },] 
@@ -126,14 +126,14 @@ const cardData = [
     {
       id: 51,
       title: 'Urinary Tract Infections (UTI)',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1702599099904-4f25f14b0471?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 52,
       title: ' Wound Infections.',
-      description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://images.unsplash.com/photo-1579544758184-a8994eb607a4?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },] 

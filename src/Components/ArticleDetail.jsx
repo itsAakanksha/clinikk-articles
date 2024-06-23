@@ -41,7 +41,7 @@ function ArticleDetail({ articles }) {
       </div>
       </Link>
       <div className="flex flex-col-reverse items-center  lg:mt-8 ">
-        <div className="mb-6 m-2">
+        <div className="mb-6 m-1">
           <div className="font-bold p-4 text-2xl md:my-12 my-6">
             All Treatments
           </div>
@@ -58,10 +58,10 @@ function ArticleDetail({ articles }) {
               </div>
             ))}
             <Cta/>
-          
+         
         </div>
         <Cta/>
-        <div className="article lg:mx-16 lg:px-32 px-8">
+        <div className="article lg:mx-16 lg:px-32 px-3">
        
           {art?.title && (
             <h1 className="text-4xl font-semibold my-10 text-center">
