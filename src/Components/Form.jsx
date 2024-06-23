@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Cta from './Cta';
 const Form = () => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -41,9 +41,13 @@ const Form = () => {
   };
 
   return (
-    <div className=" lg:flex lg:justify-between items-center bg-[#7E3AF2]  rounded-3xl m-4 p-4">
-      <h2 className="text-2xl font-semibold mb-6">Need Some Help ?</h2>
-      <form
+    <div className=" lg:flex lg:justify-between items-center bg-[#F3F3F6]  rounded-3xl m-4 p-4 lg:p-7">
+      <h2 className="md:text-3xl text-2xl font-semibold ">Are You Looking For Doctor Appointment ?</h2>
+      <div>
+      <Cta/>
+      </div>
+{
+   /*   <form
         onSubmit={handleSubmit}
         className="bg-white p-6 rounded-2xl shadow-lg w-full lg:flex md:space-x-8 space-y-4  md:space-y-0"
       >
@@ -93,6 +97,8 @@ const Form = () => {
           </button>
         </div>
       </form>
+      */
+      }
     </div>
   );
 };

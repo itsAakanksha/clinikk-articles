@@ -194,6 +194,7 @@ function ArticleDetail({ articles }) {
             </>
           )}
 
+          <Form/>
 
  
           {/* ASSOCIATED COSTS */}

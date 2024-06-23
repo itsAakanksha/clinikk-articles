@@ -6,6 +6,7 @@ import body from  '../public/body.jpeg'
 import back from  '../public/back.jpeg'
 import joint from  '../public/joint.jpeg'
 import hypertension from '../public/hpertension.jpeg'
+import dengue from '../public/dengue.jpeg'
 
 const cardData = [
 
@@ -15,7 +16,7 @@ const cardData = [
       id: 1,
       title: 'Dengue',
       description:"Dengue fever is caused by the dengue virus (DENV), transmitted primarily by the Aedes aegypti mosquito. There are four distinct serotypes of the dengue virus: DENV-1, DENV-2, DENV-3, and DENV-4.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1664476553552-84de4520b37c?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: dengue,
       date: "Sunday, 1 Jan 2023",
     }, {
       id: 2,
