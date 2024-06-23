@@ -42,7 +42,7 @@ function ArticleDetail({ articles }) {
       </Link>
       <div className="flex flex-col-reverse items-center  lg:mt-8 ">
         <div className="mb-6 m-1">
-          <div className="font-bold p-4 text-2xl md:my-12 my-6">
+          <div className="font-bold p-4 text-3xl md:my-12 my-2">
             All Treatments
           </div>
           {cardsArray.map((item, index) => (
@@ -60,7 +60,9 @@ function ArticleDetail({ articles }) {
             <Cta/>
          
         </div>
+        <div className="mt-6">
         <Cta/>
+        </div>
         <div className="article lg:mx-16 lg:px-32 px-3">
        
           {art?.title && (
@@ -192,8 +194,8 @@ function ArticleDetail({ articles }) {
             </>
           )}
 
-          <Form/>
 
+ 
           {/* ASSOCIATED COSTS */}
           {art?.sections?.[4] && (
             <>
