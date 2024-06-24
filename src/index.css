@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-  
-*{
-  font-family: "Lato", sans-serif;
-  box-sizing: border-box;
+
+@font-face {
+  font-family:oakFont;
+  src: url(oak.ttf);
 }
+
+*{
+  font-family: oakFont;
+  box-sizing: border-box;
+
+}
+
 
 .logo{
   letter-spacing: 0.2em;
@@ -51,9 +58,6 @@ ol li::marker{
 ol > li > p{
   margin: 10px;
 }
-
-
-
 
 
 
