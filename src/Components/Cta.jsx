@@ -3,12 +3,12 @@ import React from 'react'
 function Cta() {
   return (
     <>
-    <div className='flex justify-center mr-4 my-5'>
+    <div className='flex justify-center  mr-4 my-5'>
     <a
     href="https://clinikk.com/clinics-bangalore"
-    className="schedule-button inline-flex items-center px-16 py-2.5 bg-[#7E3AF2] text-white text-md no-underline rounded-full font-poppins hover:border-black hover:border-2  "
+    className="schedule-button inline-flex items-center px-16  py-2.5 bg-[#7E3AF2] text-white text-md no-underline rounded-full font-poppins hover:border-black hover:border-2  "
   >
-    Book Clinik Visit
+    Book Clinikk Visit
     <svg
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"

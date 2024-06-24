@@ -1,51 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Cta from './Cta';
 const Form = () => {
-  const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
-  const [treatment, setTreatment] = useState('');
-  const [errors, setErrors] = useState({});
-
-  const treatments = ['Dengue',
-  'Diabetes',
-  'Hypertension',
-  'Thyroid Disorders',
-  'Allergic reactions',
-  'Dermatitis',
-  'Fungal Infections',
-  'Fever',
-  'Sore throat',
-  'Headaches',
-  'Joint Pain',
-  'Back Pain',
-  'Body Aches',
-  'Viral infections',
-  'Urinary Tract Infections (UTI)',
-  'Wound Infections', 'Asthma'];
-
-  const validate = () => {
-    let tempErrors = {};
-    if (!name) tempErrors.name = 'Name is required';
-    if (!phone) tempErrors.phone = 'Phone number is required';
-    if (!treatment) tempErrors.treatment = 'Treatment is required';
-    setErrors(tempErrors);
-    return Object.keys(tempErrors).length === 0;
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      // Handle form submission
-      alert('Form submitted successfully!');
-    }
-  };
 
   return (
-    <div className=" lg:flex lg:justify-between items-center bg-[#F3F3F6]  rounded-3xl my-4 p-4 lg:p-7">
-      <h2 className="lg:text-3xl text-2xl font-semibold ">Are You Looking For Doctor Appointment ?</h2>
-      <div>
+    <div className=" lg:flex  lg:space-around items-center bg-[#F3F3F6] lg:space-x-6   rounded-3xl my-4 p-4 ">
+      <h2 className="lg:text-3xl text-xl md:text-2xl text-center  font-semibold ">Are You Looking For Doctor Appointment ?</h2>
+      
       <Cta/>
-      </div>
+     
 {
    /*   <form
         onSubmit={handleSubmit}
