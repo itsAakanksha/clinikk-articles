@@ -242,9 +242,9 @@ function ArticleDetail({ articles }) {
               {art.sections[4]?.totalCost?.desc && (
                 <div>{art.sections[4].totalCost.desc}</div>
               )}
-               <br/>
-            </>
-          )}
+              </>
+            )}
+            <br/>
          
           {/* TRUSTED PARTNER */}
           {art?.sections?.[5] && (
