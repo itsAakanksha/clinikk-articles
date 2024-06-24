@@ -7,6 +7,8 @@ import back from  '../public/back.jpeg'
 import joint from  '../public/joint.jpeg'
 import hypertension from '../public/hpertension.jpeg'
 import dengue from '../public/dengue.jpeg'
+import feve from '../public/feve.jpeg'
+import derma2 from '../public/derma2.jpeg'
 
 const cardData = [
 
@@ -54,7 +56,7 @@ const cardData = [
       id: 7,
       title: 'Dermatitis',
       description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
-      imageUrl:dermatis,
+      imageUrl:derma2,
       date: "Sunday, 1 Jan 2023",
     },
     {
@@ -70,15 +72,15 @@ const cardData = [
     categoryName:"Acute Conditions",
     type:[ {
       id: 5,
-      title: ' Fever',
+      title: ' Fever, Cold, Cough"',
       description:"Fever is a temporary increase in body temperature, usually in response to an infection or illness. It's a common symptom that indicates the body's immune system is fighting off pathogens. Fever is typically defined as a body temperature above 100.4°F (38°C) when taken orally.",
-      imageUrl: fever,
+      imageUrl: feve,
       date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 10,
+      id: 5,
       title: 'Sore throat',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:" Sore throat is a common condition marked by pain, scratchiness, or irritation of the throat, often worsened by swallowing. It is usually caused by viral infections like the common cold or flu, but can also result from bacterial infections such as strep throat.",
       imageUrl: throat,
       date: "Sunday, 1 Jan 2023",
     },
@@ -101,9 +103,9 @@ const cardData = [
       date: "Sunday, 1 Jan 2023",
     },
     {
-      id: 21,
+      id: 3,
       title: ' Back Pain',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:" Back pain is a common condition characterized by discomfort, stiffness, or tension in the lower, middle, or upper back & can range from mild to severe  due to muscle strain, injury, poor posture, or underlying medical conditions.",
       imageUrl: back,
       date: "Sunday, 1 Jan 2023",
     },

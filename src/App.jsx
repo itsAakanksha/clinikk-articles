@@ -7,8 +7,13 @@ import Cards from './Components/Cards';
 import ArticleDetail from './Components/ArticleDetail';
 import Footer from './Components/Footer';
 import { Outlet } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function App() {
+
+
+
+    
 
   return(
     <>

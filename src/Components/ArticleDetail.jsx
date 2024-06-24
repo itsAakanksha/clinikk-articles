@@ -9,8 +9,15 @@ import Form from "./Form.jsx";
 import { Link, useParams } from "react-router-dom";
 import { TreatmentData } from "../TreatmentData.js"; // Adjust the path as per your project structure
 import Cta from "./Cta.jsx";
+import { useEffect } from "react";
 
 function ArticleDetail({ articles }) {
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    
   const { id } = useParams();
   // console.log(id)
   let art = null;

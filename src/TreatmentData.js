@@ -1,11 +1,12 @@
 import dengue1 from '../public/dengue1.jpeg';
 import dengue2 from '../public/dengue2.jpeg';
 import fever1 from '../public/fever1.jpeg';
-import fever2 from '../public/fever2.jpeg';
+import fever2 from '../public/fever2a.jpeg';
 import diab1 from '../public/diab1.jpeg';
 import diab2 from '../public/diab2.jpeg';
-import joint1 from '../public/joint1.jpeg';
-import joint2 from '../public/joint2.jpeg';
+import joint2 from  '../public/joint (2).jpeg'
+import joint1 from '../public/joint2.jpeg';
+import resp from '../public/resp.jpeg'
 
 const TreatmentData = [
   {
@@ -614,6 +615,9 @@ const TreatmentData = [
       
          introduction:
         "Respiratory infections are increasingly common in Bengaluru, primarily due to rising pollution levels and changing weather conditions. Understanding the best treatments for respiratory issues and knowing where to find reliable care is essential. Clinikk, a trusted healthcare provider, has managed respiratory issues for over 6000 patients over the years, making it the top choice for effective treatment. This comprehensive guide will help you understand respiratory infections, the associated costs, and why Clinikk is your best choice for respiratory care.",
+
+        image1:resp,
+        // image2:resp2,
       sections: [
         {
           heading: "Understanding Respiratory Infections",
