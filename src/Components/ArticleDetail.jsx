@@ -78,11 +78,13 @@ function ArticleDetail({ articles }) {
             </h1>
           )}
 
-          <img
+          {art?.image1 && (        
+            <img
             className="my-4 w-full object-cover  rounded-lg  "
             src={art.image1}
             alt="a"
           />
+        )}
 
           {art?.introduction && <p>{art.introduction}</p>}
           <br />
@@ -105,7 +107,7 @@ function ArticleDetail({ articles }) {
                   ))}
                 </ul>
               </div>
-              <br />
+           
             </>
           )}
 
@@ -127,7 +129,7 @@ function ArticleDetail({ articles }) {
                   ))}
                 </ul>
               </div>
-              <br />
+          
             </>
           )}
 
@@ -158,12 +160,14 @@ function ArticleDetail({ articles }) {
                   )}
                 </ul>
               </div>
+               {art?.image2 && (   
               <img
                 className="my-4 w-full object-cover rounded-lg"
                 src={art.image2}
-                alt="art Image2"
+                alt=""
               />
-              <br />
+               )}
+             
             </>
           )}
 
@@ -202,6 +206,7 @@ function ArticleDetail({ articles }) {
           )}
 
           <Form/>
+         
 
  
           {/* ASSOCIATED COSTS */}
@@ -237,10 +242,10 @@ function ArticleDetail({ articles }) {
               {art.sections[4]?.totalCost?.desc && (
                 <div>{art.sections[4].totalCost.desc}</div>
               )}
-              
+               <br/>
             </>
           )}
-
+         
           {/* TRUSTED PARTNER */}
           {art?.sections?.[5] && (
             <>
@@ -250,7 +255,7 @@ function ArticleDetail({ articles }) {
                 </h2>
               )}
               {art.sections[5]?.content && <div className="my-4">{art.sections[5].content}</div>}
-              <br />
+             
             </>
           )}
 
@@ -268,7 +273,7 @@ function ArticleDetail({ articles }) {
                 ))}
               </ul>
               
-              <br />
+             
             </>
           )}
 
@@ -293,7 +298,7 @@ function ArticleDetail({ articles }) {
                   })}
                 </ol>
               </div>
-              <br />
+            
             </>
           )}
 

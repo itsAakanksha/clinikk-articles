@@ -441,7 +441,7 @@ const TreatmentData = [
       title:
         "Guide to Pain Management: Back Pain, Shoulder Pain, and Joint Pain in Bengaluru",
       image1:joint1,
-      image2:joint2,
+     
       introduction:
         "Pain management is a crucial aspect of healthcare, especially for chronic conditions like back pain, shoulder pain, and joint pain. Clinikk has been a leader in providing effective pain management for over 2000 patients in Bengaluru. This comprehensive guide will help you understand the best treatments for these common pain issues, the associated costs, and why Clinikk is your best choice for pain management.",
       sections: [
@@ -757,7 +757,7 @@ const TreatmentData = [
         },
         {
           heading: "Rising Pollution and Respiratory Issues in Bengaluru",
-          description:
+          content:
             "Bengaluru has been grappling with increasing pollution levels over the years, leading to a rise in respiratory issues among its residents. Pollutants like dust, smoke, and chemicals in the air can irritate the respiratory system, exacerbating conditions like asthma, bronchitis, and other respiratory infections. It is crucial to seek timely medical attention to manage these conditions effectively and improve your quality of life.",
          
         },

@@ -72,7 +72,7 @@ const cardData = [
     categoryName:"Acute Conditions",
     type:[ {
       id: 5,
-      title: ' Fever, Cold, Cough"',
+      title: ' Fever, Cold, Cough',
       description:"Fever is a temporary increase in body temperature, usually in response to an infection or illness. It's a common symptom that indicates the body's immune system is fighting off pathogens. Fever is typically defined as a body temperature above 100.4°F (38°C) when taken orally.",
       imageUrl: feve,
       date: "Sunday, 1 Jan 2023",
