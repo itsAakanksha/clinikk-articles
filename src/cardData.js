@@ -30,7 +30,7 @@ const cardData = [
     {
       id: 12,
       title: 'Hypertension',
-      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.  Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Hypertension, commonly known as high blood pressure, is a chronic medical condition where the force of blood against the walls of the arteries is consistently elevated & can lead to serious health complications such as heart disease, stroke, and kidney failure if left untreated.",
       imageUrl: hypertension,
       date: "Sunday, 1 Jan 2023",
     },
@@ -48,21 +48,21 @@ const cardData = [
     type:[ {
       id: 6,
       title: ' Allergic reactions',
-      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam. Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Allergic reactions occur when the immune system overreacts to a normally harmless substance & can lead to various symptoms ranging from mild to severe, including skin rash, itching, swelling, sneezing, wheezing, difficulty breathing.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1661537390414-33d7ad495159?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 7,
       title: 'Dermatitis',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Dermatitis refers to inflammation of the skin, which can result in a range of symptoms including redness, itching, swelling, and skin lesions. It is often caused by contact with irritants or allergens, but can also be due to genetic factors, infections, or autoimmune conditions.",
       imageUrl:derma2,
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 8,
       title: ' Fungal Infections',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Fungal infections, also known as mycoses, are caused by fungi that can invade the skin, nails, hair, or internal organs. These infections can range from mild, such as athlete's foot or yeast infections, to severe, such as systemic fungal infections affecting organs like the lungs or bloodstream.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1677545889722-423483ddd9f9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },]
@@ -87,7 +87,7 @@ const cardData = [
     {
       id: 15,
       title: 'Headaches',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"A headache is a common medical condition characterized by pain or discomfort in the head or upper neck area. Headaches can be caused due to tension, migraines and by other medical conditions such as sinus infections, head injury, or medication side effects.",
       imageUrl:headache,
       date: "Sunday, 1 Jan 2023",
     },] 
@@ -112,7 +112,7 @@ const cardData = [
     {
       id: 22,
       title: 'Body Aches',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Body ache refers to generalized discomfort or pain that affects muscles, joints, or tissues throughout the body. It can be caused by various factors such as viral infections (like flu or colds), bacterial infections, autoimmune disorders, overexertion, stress, dehydration, or certain medications.",
       imageUrl: body,
       date: "Sunday, 1 Jan 2023",
     },] 
@@ -129,14 +129,14 @@ const cardData = [
     {
       id: 51,
       title: 'Urinary Tract Infections (UTI)',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"A urinary tract infection (UTI) is a bacterial infection that can occur anywhere in the urinary system, which includes the kidneys, ureters, bladder, and urethra. UTIs are typically occur when bacteria from the digestive tract, such as E. coli, enter the urinary tract through the urethra.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1702599099904-4f25f14b0471?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },
     {
       id: 52,
       title: ' Wound Infections.',
-      description:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla, minus veniam itaque? Atque mollitia excepturi aperiam.   Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
+      description:"Wound infections occur when bacteria enter a wound, causing inflammation and potentially delaying healing. Common signs of wound infection include increased pain, redness, swelling, warmth around the wound, pus or discharge, and fever.",
       imageUrl: 'https://images.unsplash.com/photo-1579544758184-a8994eb607a4?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: "Sunday, 1 Jan 2023",
     },] 
