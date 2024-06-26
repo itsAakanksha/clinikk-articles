@@ -10,6 +10,7 @@ import { Link, useParams } from "react-router-dom";
 import { TreatmentData } from "../TreatmentData.js"; // Adjust the path as per your project structure
 import Cta from "./Cta.jsx";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 function ArticleDetail({ articles }) {
 
@@ -34,6 +35,10 @@ function ArticleDetail({ articles }) {
 
   return (
     <>
+    <Helmet>
+    <meta name="title" content={art.metaTitle}/>
+    <meta name="description" content={art.metaDesc}/>
+    </Helmet>
     <Link to={'/'}>
       <div className="mt-3 p-3 flex items-center cursor-pointer ">
         <span>   <svg
@@ -54,7 +59,7 @@ function ArticleDetail({ articles }) {
           </div>
           {cardsArray.map((item, index) => (
             <div key={index} className="">
-            
+           
               <div className="flex justify-evenly gap-x-4 gap-y-6 flex-wrap">
                 {item.type.map(
                   (typeItem, typeIndex) =>
@@ -71,7 +76,7 @@ function ArticleDetail({ articles }) {
         <Cta/>
         </div>
         <div className="article lg:mx-16 lg:px-32 px-3">
-       
+      
           {art?.title && (
             <h1 className="text-4xl font-semibold my-10 text-center">
               {art.title}
