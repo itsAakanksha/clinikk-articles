@@ -5,7 +5,7 @@ function Card({ item }) {
   const { id } = item;
 
   return (
-    <Link to={`/${id}`} className='w-[95vw] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2'>
+    <Link to={`${id}`} className='w-[95vw] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2'>
       <div className='h-[225px]'>
         <img 
           src={item.imageUrl} 
