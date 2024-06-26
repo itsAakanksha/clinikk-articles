@@ -12,6 +12,8 @@ const TreatmentData = [
   {
     article: {
       id: 1,
+      alt1:"Dengue Treatment",
+      alt2:"Doctor taking blood sample for dengue treatment",
       title: "Dengue Treatment and Associated Costs in Bengaluru",
       image1:dengue1,
       image2:dengue2,
@@ -220,8 +222,8 @@ const TreatmentData = [
   {
     article: {
       id: 2,
-      title: "Diabetes Management and Associated Costs in Bengaluru",
-      image1:diab1  ,    image2:diab2,
+      alt1:"Blood sugar level checking for Diabetes treatment",
+      alt2:"Doctor checking pulse rate for Diabetes treatment",
       introduction:
         "Managing diabetes effectively requires the expertise of a dedicated healthcare provider. In Bengaluru, Clinikk stands out as the leading choice for diabetes care, offering comprehensive services and personalised treatment plans. This guide provides detailed insights into diabetes management, associated costs, and why Clinikk is your best option for diabetes care in the city.",
       sections: [
@@ -438,6 +440,8 @@ const TreatmentData = [
   {
     article: {
       id: 3,
+      alt1:"Different body parts showing pain areas",
+      alt2:"",
       title:
         "Guide to Pain Management: Back Pain, Shoulder Pain, and Joint Pain in Bengaluru",
       image1:joint1,
@@ -610,6 +614,8 @@ const TreatmentData = [
   {
     article: {
       id: 4,
+      alt1:"Virus infecting respiratory system ",
+      alt2:"",
       title: "Guide to Treating Respiratory Infections in Bengaluru",
       
       
@@ -790,6 +796,8 @@ const TreatmentData = [
   {
     article: {
       id: 5,
+      alt1:"Small boy is down with Fever, Cold & Cough.",
+      alt2:"Doctor treating patient suffering from Cold & Cough.",
       title:
         "Guide to Treating Fever, Cold, Cough, and Sore Throat in Bengaluru",
       image1:fever1,

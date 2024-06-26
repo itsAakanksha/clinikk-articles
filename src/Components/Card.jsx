@@ -10,7 +10,7 @@ function Card({ item }) {
         <img 
           src={item.imageUrl} 
           className='h-full w-full object-cover rounded-t-3xl' 
-          alt={item.title} 
+          alt={item.alt} 
         />
       </div>
       <div className='flex flex-col gap-2 p-4 flex-grow'>

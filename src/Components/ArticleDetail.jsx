@@ -78,13 +78,13 @@ function ArticleDetail({ articles }) {
             </h1>
           )}
 
-          {art?.image1 && (        
+            
             <img
             className="my-4 w-full object-cover  rounded-lg  "
             src={art.image1}
-            alt="a"
+            alt={art.alt1}
           />
-        )}
+    
 
           {art?.introduction && <p>{art.introduction}</p>}
           <br />
@@ -160,13 +160,13 @@ function ArticleDetail({ articles }) {
                   )}
                 </ul>
               </div>
-               {art?.image2 && (   
+                 
               <img
                 className="my-4 w-full object-cover rounded-lg"
                 src={art.image2}
-                alt=""
+                alt={art.alt2}
               />
-               )}
+             
              
             </>
           )}
