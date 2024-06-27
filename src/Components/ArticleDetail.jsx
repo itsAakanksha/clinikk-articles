@@ -14,12 +14,12 @@ import { Helmet } from "react-helmet";
 
 function ArticleDetail({ articles }) {
 
+  const { id } = useParams();
     useEffect(() => {
       window.scrollTo(0, 0);
-    }, []);
+    }, [id]);
 
     
-  const { id } = useParams();
   // console.log(id)
   let art = null;
   const cardsArray = cardData.slice(0, 2);

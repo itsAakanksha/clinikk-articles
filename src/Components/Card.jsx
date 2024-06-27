@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { useEffect } from 'react';
 function Card({ item }) {
+
+ 
   const { id } = item;
+
 
   return (
     <Link to={`/${id}`} className='w-[95vw] md:w-[384px] min-h-[456px] flex flex-col cursor-pointer mx-2'>
