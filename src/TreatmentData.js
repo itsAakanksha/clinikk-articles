@@ -1091,9 +1091,9 @@ const TreatmentData = [
         {
           heading: "Finding the Best Care Near You",
           content: `
-          <p>When searching for "chest infection doctor near me" or "chest congestion treatment near me," look no further than Clinikk. Our clinics are strategically located across Bengaluru to ensure you have access to top-notch medical care whenever you need it.</p> <br/>
+          <p>When searching for "cold and fever treatment near me" or "sore throat treatment near me," look no further than Clinikk. Our clinics are strategically located across Bengaluru to ensure you have access to top-notch medical care whenever you need it.</p> <br/>
           <p>For more information or to book an appointment, visit our website at clinikk.com. Experience exceptional healthcare services at Clinikk – your trusted partner in health.</p>  <br/>
-          <p>By choosing Clinikk, you're not just getting medical care; you're joining a community dedicated to your health and well-being. Trust us for all your healthcare needs and experience the difference of superior care provided by our dedicated team of professionals.</p>
+          <p>By choosing Clinikk, you're not just getting medical care; you're taking steps to improve your health and well-being.. Trust us for all your healthcare needs and experience the difference of superior care provided by our dedicated team of professionals.</p>
         `,
         },
       ],
