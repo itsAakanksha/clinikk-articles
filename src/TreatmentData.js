@@ -867,14 +867,14 @@ const TreatmentData = [
             {
               title: "Treatment Costs",
               items: [
-                { name: "Insulin", costRange: "INR 500 - INR 3000 per month" },
+                { name: "Medication Management:", costRange: "INR 300 - INR 2000 per month" },
                 {
-                  name: "Oral Medications",
-                  costRange: "INR 200 - INR 1500 per month",
+                  name: "Nebulization Sessions:",
+                  costRange: "INR 500 - INR 1500 per session",
                 },
                 {
-                  name: "Injectable Medications",
-                  costRange: "INR 2000 - INR 8000 per month",
+                  name: "Hospitalisation (if needed)",
+                  costRange: " INR 5000 - INR 20,000 per day",
                 },
               ],
             },
