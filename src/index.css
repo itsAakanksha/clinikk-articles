@@ -53,7 +53,9 @@ ol{
 
 ol li::marker{
   font-weight: bold;
+  font-size: 1.1em;
  }
+
 
 ol > li > p{
   margin: 10px;

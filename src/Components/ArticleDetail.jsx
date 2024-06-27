@@ -73,27 +73,25 @@ function ArticleDetail({ articles }) {
           {art?.introduction && <p>{art.introduction}</p>}
           <br />
 
+          <>
           {/* UNDERSTANDING DISEASE */}
-          {art?.sections?.[0] && (
-            <>
-              {art.sections[0]?.heading && (
-                <h2 className="text-2xl font-semibold">
-                  {art.sections[0].heading}
-                </h2>
+          {art?.sections?.[0].heading && <h2 className="text-2xl font-semibold">{art?.sections[0].heading}</h2>}
+          {art?.sections?.[0].content?.map((section, index) => (
+            <div key={index} className="my-4">
+              {section?.heading && (
+                <h3 className="text-xl font-semibold">{section.heading}</h3>
               )}
-              <div className="my-4">
-                {art.sections[0]?.content?.contDesc && (
-                  <p className="my-2">{art.sections[0].content.contDesc}</p>
-                )}
+              {section?.contDesc && <p className="my-2">{section.contDesc}</p>}
+              {section?.contUl?.length > 0 && (
                 <ul>
-                  {art.sections[0]?.content?.contUl?.map((list, index) => (
-                    <li key={index}>{list}</li>
+                  {section.contUl.map((listItem, index) => (
+                    <li key={index}>{listItem}</li>
                   ))}
                 </ul>
-              </div>
-           
-            </>
-          )}
+              )}
+            </div>
+          ))}
+        </>
 
           {/* SYMPTOMS */}
           {art?.sections?.[1] && (
@@ -166,13 +164,13 @@ function ArticleDetail({ articles }) {
               {art.sections[3]?.description && (
                 <p>{art.sections[3].description}</p>
               )}
-              <ol>
+              <ol className="ol-small">
                 {art.sections[3]?.subsections?.map((subsection, index) => (
                   <li key={index}>
                     {subsection?.subheading && (
-                      <p>
+                      <h3 className="text-lg font-semibold">
                         <strong>{subsection.subheading}</strong>
-                      </p>
+                      </h3>
                     )}
                     {subsection?.content?.contDesc && (
                       <p>{subsection.content.contDesc}</p>
@@ -191,46 +189,24 @@ function ArticleDetail({ articles }) {
 
           <Form/>
          
+          {
+            art?.sections?.[4] && (
+              <>
+                {art.sections[4]?.heading && (
+                  <h2 className="text-2xl font-semibold">
+                    {art.sections[4].heading}
+                  </h2>
+                )}
+                {art.sections[4]?.description && (
+                  <div className="my-4">{art.sections[4].description}</div>
+                )}
+              </>
+            )
+          }
+          
 
  
           {/* ASSOCIATED COSTS */}
-          {art?.sections?.[4] && (
-            <>
-              {art.sections[4]?.heading && (
-                <h2 className="text-2xl font-semibold">
-                  {art.sections[4].heading}
-                </h2>
-              )}
-              {art.sections[4]?.description && (
-                <div className="my-4">{art.sections[4].description}</div>
-              )}
-              <ol>
-                {art.sections[4]?.sections?.map((section, index) => (
-                  <li key={index}>
-                    {section?.title && <h3>{section.title}</h3>}
-                    <ul>
-                      {section?.items?.map((item, idx) => (
-                        <li key={idx}>
-                          <strong>{item.name}</strong>: {item.costRange}
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ol>
-              {art.sections[4]?.totalCost?.title && (
-                <h2 className="text-2xl font-semibold my-3">
-                  {art.sections[4].totalCost.title}
-                </h2>
-              )}
-              {art.sections[4]?.totalCost?.desc && (
-                <div>{art.sections[4].totalCost.desc}</div>
-              )}
-              </>
-            )}
-            <br/>
-         
-          {/* TRUSTED PARTNER */}
           {art?.sections?.[5] && (
             <>
               {art.sections[5]?.heading && (
@@ -238,12 +214,38 @@ function ArticleDetail({ articles }) {
                   {art.sections[5].heading}
                 </h2>
               )}
-              {art.sections[5]?.content && <div className="my-4">{art.sections[5].content}</div>}
-             
-            </>
-          )}
-
-          {/* WHY CHOOSE CLINIKK */}
+              {art.sections[5]?.description && (
+                <div className="my-4">{art.sections[5].description}</div>
+              )}
+              <ol className="ol-large">
+                {art.sections[5]?.sections?.map((section, index) => (
+                  <li key={index} className="my-3" >
+                    {section?.title && <h3 className="text-lg font-semibold">{section.title}</h3>}
+                    
+                    <ul>
+                      {section?.items?.map((item, idx) => (
+                        <li key={idx}>
+                          <strong>{item.name}</strong>: {item.costRange}
+                        </li>
+                      ))}
+                    </ul>
+                    
+                  </li>
+                ))}
+              </ol>
+              {art.sections[5]?.totalCost?.title && (
+                <h2 className="text-2xl font-semibold my-3">
+                  {art.sections[5].totalCost.title}
+                </h2>
+              )}
+              {art.sections[5]?.totalCost?.desc && (
+                <div>{art.sections[5].totalCost.desc}</div>
+              )}
+              </>
+            )}
+            <br/>
+         
+          {/* TRUSTED PARTNER */}
           {art?.sections?.[6] && (
             <>
               {art.sections[6]?.heading && (
@@ -251,57 +253,68 @@ function ArticleDetail({ articles }) {
                   {art.sections[6].heading}
                 </h2>
               )}
-              <ul className="my-4">
-                {art.sections[6]?.content?.map((list, index) => (
-                  <li key={index}>{list}</li>
-                ))}
-              </ul>
-              
+              {art.sections[6]?.content && <div className="my-4">{art.sections[6].content}</div>}
              
             </>
           )}
 
+     
+{/* WHY CHOOSE CLINIKK */}
+{art?.sections?.[7] && (
+  <>
+    {art?.sections?.[7].heading && (
+      <h2 className="text-2xl font-semibold">
+        {art?.sections?.[7].heading}
+      </h2>
+    )}
+    <ul className="my-4">
+      {art?.sections?.[7].content.map((item, index) => (
+        <li key={index}>
+          <h3 className="text-lg font-semibold">{item.point}</h3>
+          <p>{item.desc}</p>
+        </li>
+      ))}
+    </ul>
+  </>
+)}
+
           {/* CHOOSING THE RIGHT HEALTHCARE FACILITY */}
-          {art?.sections?.[7] && (
-            <>
-              {art.sections[7]?.heading && (
-                <h2 className="text-2xl font-semibold">
-                  {art.sections[7].heading}
-                </h2>
-              )}
-              <div className="my-4">
-                <ol>
-                  {art.sections[7]?.content?.map((item, index) => {
-                    const [boldText, normalText] = item.split(":");
-                    return (
-                      <li key={index}>
-                        <strong>{boldText}:</strong>
-                        {normalText}
-                      </li>
-                    );
-                  })}
-                </ol>
-              </div>
-            
-            </>
-          )}
+        {art?.sections?.[8] && (
+  <>
+    {art.sections[8]?.heading && (
+      <h2 className="text-2xl font-semibold">
+        {art.sections[8].heading}
+      </h2>
+    )}
+    <div className="my-4">
+      <ol className="ol-small">
+        {art.sections[8]?.content?.map((item, index) => (
+          <li key={index}>
+            <h3 className="text-lg font-semibold">{item.point}</h3>
+            <p>{item.desc}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </>
+)}
 
           {/* PREVENTIVE MEASURES */}
 
           <div className="preventive-measures">
-            {art.sections[8]?.heading && (
+            {art.sections[9]?.heading && (
               <h2 className="text-2xl font-semibold ">
-                {art.sections[8].heading}
+                {art.sections[9].heading}
               </h2>
             )}
-            {art.sections[8]?.description && (
+            {art.sections[9]?.description && (
               <p>
-                {art.sections[8].description}
+                {art.sections[9].description}
               </p>
             )}
          
             <ol>
-              {art.sections[8].content?.map((item, index) => (
+              {art.sections[9].content?.map((item, index) => (
                 <li key={index}>
                   {typeof item === "string" ? (
                     <p>{item}</p>
@@ -318,14 +331,14 @@ function ArticleDetail({ articles }) {
           </div>
 
           {/* CONCLUSION */}
-          {art?.sections?.[9] && (
+          {art?.sections?.[10] && (
             <>
-              {art.sections[9]?.heading && (
+              {art.sections[10]?.heading && (
                 <h2 className="text-2xl font-semibold my-2">
-                  {art.sections[9].heading}
+                  {art.sections[10].heading}
                 </h2>
               )}
-              {art.sections[9]?.content &&  <div dangerouslySetInnerHTML={{ __html: art.sections[9].content} } ></div>}
+              {art.sections[10]?.content &&  <div dangerouslySetInnerHTML={{ __html: art.sections[10].content} } ></div>}
             </>
           )}
          <div className="mt-6">

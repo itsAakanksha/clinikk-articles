@@ -25,10 +25,10 @@ const TreatmentData = [
       sections: [
         {
           heading: "Understanding Dengue Fever",
-          content: {
+          content: [{
             contDesc:
               "Dengue fever is caused by the dengue virus (DENV), transmitted primarily by the Aedes aegypti mosquito. There are four distinct serotypes of the dengue virus: DENV-1, DENV-2, DENV-3, and DENV-4. Infection with one serotype provides lifelong immunity to that serotype but not to the others. A person can therefore contract an infection up to four times, once for each serotype. A higher risk of severe dengue is linked to secondary infections with a distinct serotype.",
-          },
+          }],
         },
         {
           heading: "Symptoms of Dengue Fever",
@@ -94,6 +94,9 @@ const TreatmentData = [
               },
             },
           ],
+        },
+        {
+        
         },
         {
           heading: "Associated Costs of Dengue Treatment in Bengaluru",
@@ -178,22 +181,49 @@ const TreatmentData = [
         {
           heading: "Why Choose Clinikk for Dengue Treatment?",
           content: [
-            "Experienced Dengue Doctors: Our doctors have extensive experience in managing dengue cases, ensuring you receive expert care.",
-            "State-of-the-Art Dengue Clinics: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
-            "Patient-Centric Approach: We prioritise your health and well-being, offering personalised care tailored to your needs.",
-            "Affordable Dengue Treatment Cost: We offer transparent and affordable pricing, ensuring you receive the best care without financial strain.",
-            "Comprehensive Care: From outpatient consultations to hospitalisation, Clinikk provides a full spectrum of services to manage dengue effectively.",
-          ],
+            {
+              point: "Experienced Doctors",
+              desc: "Our doctors have extensive experience in managing diabetes and ensuring you receive expert care."
+            },
+            {
+              point: "State-of-the-Art Facilities",
+              desc: "Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment."
+            },
+            {
+              point: "Patient-Centric Approach",
+              desc: "We prioritize your health and well-being, offering personalized care tailored to your needs."
+            },
+            {
+              point: "Affordable Care",
+              desc: "We offer transparent and affordable pricing, ensuring you receive the best care without financial strain."
+            },
+            {
+              point: "Evidence-Based Medicine",
+              desc: "Our diabetes management protocols are grounded in the latest research, ensuring you receive the most effective treatments available."
+            }
+          ]
         },
         {
           heading: "Choosing the Right Healthcare Facility",
           description:
             "When selecting a healthcare facility for dengue treatment, consider the following factors:",
-          content: [
-            "Experience and Expertise: Choose a dengue hospital or clinic with experienced healthcare professionals who specialize in managing dengue cases. Facilities with a track record of successful dengue management can provide better care.",
-            "Facilities and Equipment: Ensure the facility is well-equipped with necessary diagnostic tools, laboratory services, and intensive care units (ICUs) for severe cases. Advanced equipment and infrastructure can significantly impact treatment outcomes.",
-            "Cost and Insurance Coverage: Consider the cost of treatment and whether the facility accepts your health insurance plan. Understanding the financial aspect of treatment can help in planning and managing expenses.",
-          ],
+            content: [
+              {
+                point: "Experience and Expertise",
+                desc:
+                  "Choose a hospital or clinic with experienced healthcare professionals who specialize in managing diabetes. Facilities with a track record of successful diabetes management can provide better care."
+              },
+              {
+                point: "Facilities and Equipment",
+                desc:
+                  "Ensure the facility is well-equipped with necessary diagnostic tools, laboratory services, and diabetes education programs. Advanced equipment and infrastructure can significantly impact treatment outcomes."
+              },
+              {
+                point: "Cost and Insurance Coverage",
+                desc:
+                  "Consider the cost of treatment and whether the facility accepts your health insurance plan. Understanding the financial aspect of treatment can help in planning and managing expenses."
+              }
+            ],
         },
         {
           heading: "Preventive Measures",
@@ -236,7 +266,7 @@ const TreatmentData = [
       sections: [
         {
           heading: "Understanding Diabetes",
-          content: {
+          content: [{
             contDesc:
               "Diabetes is a chronic condition characterized by high blood sugar levels. It primarily includes three types:",
             contUl: [
@@ -244,7 +274,7 @@ const TreatmentData = [
               "Type 2 Diabetes: A condition where the body becomes resistant to insulin or doesn't produce enough insulin.",
               "Gestational Diabetes: Diabetes that develops during pregnancy and typically resolves after childbirth.",
             ],
-          },
+          },]
         },
         {
           heading: "Symptoms of Diabetes",
@@ -340,6 +370,9 @@ const TreatmentData = [
           ],
         },
         {
+         
+        },
+        {
           heading: "Associated Costs of Diabetes Management in Bengaluru",
           description:
             "The cost of diabetes management can vary depending on the type of diabetes, treatment plan, and healthcare facility. Here is a breakdown of potential costs:",
@@ -418,21 +451,48 @@ const TreatmentData = [
         {
           heading: "Why Choose Clinikk for Diabetes Management?",
           content: [
-            "Experienced Doctors: Our doctors have extensive experience in managing diabetes and ensuring you receive expert care.",
-            "State-of-the-Art Facilities: Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment.",
-            "Patient-Centric Approach: We prioritise your health and well-being, offering personalised care tailored to your needs.",
-            "Affordable Care: We offer transparent and affordable pricing, ensuring you receive the best care without financial strain.",
-            "Evidence-Based Medicine: Our diabetes management protocols are grounded in the latest research, ensuring you receive the most effective treatments available.",
-          ],
+            {
+              point: "Experienced Doctors",
+              desc: "Our doctors have extensive experience in managing diabetes and ensuring you receive expert care."
+            },
+            {
+              point: "State-of-the-Art Facilities",
+              desc: "Our clinics are equipped with the latest medical technology for accurate diagnosis and effective treatment."
+            },
+            {
+              point: "Patient-Centric Approach",
+              desc: "We prioritize your health and well-being, offering personalized care tailored to your needs."
+            },
+            {
+              point: "Affordable Care",
+              desc: "We offer transparent and affordable pricing, ensuring you receive the best care without financial strain."
+            },
+            {
+              point: "Evidence-Based Medicine",
+              desc: "Our diabetes management protocols are grounded in the latest research, ensuring you receive the most effective treatments available."
+            }
+          ]
         },
         {
           heading: "Choosing the Right Healthcare Facility",
 
           content: [
-            "Experience and Expertise: Choose a hospital or clinic with experienced healthcare professionals who specialise in managing diabetes cases. Facilities with a track record of successful diabetes management can provide better care.",
-            "Facilities and Equipment: Ensure the facility is well-equipped with necessary diagnostic tools, laboratory services, and intensive care units (ICUs) for severe cases. Advanced equipment and infrastructure can significantly impact treatment outcomes.",
-            "Cost and Insurance Coverage: Consider the cost of treatment and whether the facility accepts your health insurance plan. Understanding the financial aspect of treatment can help in planning and managing expenses.",
-          ],
+            {
+              point: "Experience and Expertise",
+              desc:
+                "Choose a hospital or clinic with experienced healthcare professionals who specialize in managing diabetes. Facilities with a track record of successful diabetes management can provide better care."
+            },
+            {
+              point: "Facilities and Equipment",
+              desc:
+                "Ensure the facility is well-equipped with necessary diagnostic tools, laboratory services, and diabetes education programs. Advanced equipment and infrastructure can significantly impact treatment outcomes."
+            },
+            {
+              point: "Cost and Insurance Coverage",
+              desc:
+                "Consider the cost of treatment and whether the facility accepts your health insurance plan. Understanding the financial aspect of treatment can help in planning and managing expenses."
+            }
+          ]
         },
         {},
         {
@@ -461,17 +521,44 @@ const TreatmentData = [
       sections: [
         {
           heading: "Understanding Common Pain Issues",
-          content: {
-            contDesc:
-              "Back pain can range from a dull, constant ache to a sudden, sharp pain that makes movement difficult. It can be caused by various factors, including:",
-            contUl: [
-              " Poor posture",
-              "  Muscle or ligament strain",
-              "  Bulging or ruptured discs",
-              " Arthritis",
-              "   Osteoporosis",
-            ],
-          },
+       content: [
+    {
+      heading: "Back Pain",
+      contDesc:
+        "Back pain can range from a dull, constant ache to a sudden, sharp pain that makes movement difficult. It can be caused by various factors, including:",
+      contUl: [
+        "Poor posture",
+        "Muscle or ligament strain",
+        "Bulging or ruptured discs",
+        "Arthritis",
+        "Osteoporosis"
+      ]
+    },
+    {
+      heading: "Shoulder Pain",
+      contDesc: "Shoulder pain can result from several conditions, such as:",
+      contUl: [
+        "Rotator cuff injuries",
+        "Frozen shoulder",
+        "Arthritis",
+        "Tendonitis",
+        "Bursitis"
+      ]
+    },
+    {
+      heading: "Joint Pain",
+      contDesc:
+        "Joint pain, commonly affecting the knees, hips, and hands, can be due to:",
+      contUl: [
+        "Arthritis (osteoarthritis, rheumatoid arthritis)",
+        "Gout",
+        "Bursitis",
+        "Tendonitis",
+        "Sprains and strains"
+      ]
+    }
+  ]
+
         },
         {},
         {},
@@ -514,6 +601,9 @@ const TreatmentData = [
               },
             },
           ],
+        },
+        {
+        
         },
         {
           heading: "Associated Costs of Pain Management in Bengaluru",
@@ -598,13 +688,31 @@ const TreatmentData = [
         {
           heading: "Why Choose Clinikk for Pain Management??",
           content: [
-            `Experienced  Doctors: Clinikk’s team includes highly skilled doctors specializing in pain management. With over 2000 patients successfully managed, our doctors provide expert care for back pain, shoulder pain, and joint pain. If you're searching for a "joint pain doctor near me" or "ortho doctor near me," Clinikk is your ideal choice.`,
-            "Convenient Locations: Clinikk has multiple clinics across Bengaluru, making it easy to find an ortho doctor or pain management specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes.",
-            "State-of-the-Art Facilities: Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need physical therapy or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs. Please note that for advanced tests like MRI - we can refer you to specialist labs around your home as we don’t conduct these tests internally.",
-            "Patient-Centric Approach: At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your pain issues and provide the best possible treatment.",
-            "Affordable Care: Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare.",
-            "Comprehensive Care: From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your pain effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible.",
-          ],
+            {
+              point: "Experienced Doctors",
+              desc: "Clinikk’s team includes highly skilled doctors specializing in pain management. With over 2000 patients successfully managed, our doctors provide expert care for back pain, shoulder pain, and joint pain. If you're searching for a 'joint pain doctor near me' or 'ortho doctor near me,' Clinikk is your ideal choice."
+            },
+            {
+              point: "Convenient Locations",
+              desc: "Clinikk has multiple clinics across Bengaluru, making it easy to find an ortho doctor or pain management specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes."
+            },
+            {
+              point: "State-of-the-Art Facilities",
+              desc: "Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need physical therapy or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs. Please note that for advanced tests like MRI - we can refer you to specialist labs around your home as we don’t conduct these tests internally."
+            },
+            {
+              point: "Patient-Centric Approach",
+              desc: "At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your pain issues and provide the best possible treatment."
+            },
+            {
+              point: "Affordable Care",
+              desc: "Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare."
+            },
+            {
+              point: "Comprehensive Care",
+              desc: "From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your pain effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
+            }
+          ]
         },
         {},
         {},
@@ -639,7 +747,7 @@ const TreatmentData = [
       sections: [
         {
           heading: "Understanding Respiratory Infections",
-          content: {
+          content: [{
             contDesc:
               "Respiratory infections can affect any part of the respiratory system, including the sinuses, throat, airways, or lungs. Common respiratory infections include:",
             contUl: [
@@ -649,7 +757,7 @@ const TreatmentData = [
               " Sinusitis: Inflammation or swelling of the tissue lining the sinuses.",
               "Asthma: A chronic condition that causes inflammation and narrowing of the airways.",
             ],
-          },
+          },]
         },
         {
           heading: "Symptoms of Respiratory Infections",
@@ -721,6 +829,11 @@ const TreatmentData = [
           ],
           
         },
+
+        {
+          heading:"When to Seek Medical Attention",
+          description:"If you experience severe symptoms such as difficulty breathing, persistent high fever, severe chest pain, or worsening symptoms, it is crucial to reach out to a qualified doctor immediately. Early medical intervention can prevent complications and ensure timely and effective treatment."
+        },
         {
           heading: "Associated Costs of Respiratory Care in Bengaluru ",
           description:
@@ -782,13 +895,31 @@ const TreatmentData = [
         {
           heading: "Why Choose Clinikk for Respiratory Care?",
           content: [
-            "Experienced Doctors: Clinikk’s doctors are highly experienced in treating respiratory infections. With over 6000 patients managed over the years, our doctors provide expert care for common colds, bronchitis, pneumonia, sinusitis, and asthma. If you're searching for a 'chest infection doctor near me' or 'cough doctor near me,' Clinikk is the ideal choice.",
-            "Convenient Locations: Clinikk has multiple clinics across Bengaluru, making it easy to find an ENT doctor or respiratory specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes.",
-            "State-of-the-Art Facilities: Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need a simple check-up or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs.",
-            "Patient-Centric Approach: At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your respiratory issues and provide the best possible treatment.",
-            "Affordable Care: Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare.",
-            "Comprehensive Care: From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your respiratory issues effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
-          ],
+            {
+              point: "Experienced Doctors",
+              desc: "Clinikk’s team includes highly skilled doctors specializing in pain management. With over 2000 patients successfully managed, our doctors provide expert care for back pain, shoulder pain, and joint pain. If you're searching for a 'joint pain doctor near me' or 'ortho doctor near me,' Clinikk is your ideal choice."
+            },
+            {
+              point: "Convenient Locations",
+              desc: "Clinikk has multiple clinics across Bengaluru, making it easy to find an ortho doctor or pain management specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes."
+            },
+            {
+              point: "State-of-the-Art Facilities",
+              desc: "Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need physical therapy or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs. Please note that for advanced tests like MRI - we can refer you to specialist labs around your home as we don’t conduct these tests internally."
+            },
+            {
+              point: "Patient-Centric Approach",
+              desc: "At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your pain issues and provide the best possible treatment."
+            },
+            {
+              point: "Affordable Care",
+              desc: "Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare."
+            },
+            {
+              point: "Comprehensive Care",
+              desc: "From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your pain effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
+            }
+          ]
         },
         {},
         {},
@@ -821,17 +952,55 @@ const TreatmentData = [
       sections: [
         {
           heading: "Understanding Common Symptoms",
-          content: {
-            contDesc:
-              "Fever is a temporary increase in body temperature, often due to an infection. Symptoms of fever include:",
-            contUl: [
-              " Elevated body temperature",
-              " Sweating",
-              " Chills and shivering",
-              "Headache",
-              "Muscle aches",
-            ],
-          },
+          content: [
+            {
+              heading: "Fever",
+              contDesc:
+                "Fever is a temporary increase in body temperature, often due to an infection. Symptoms of fever include:",
+              contUl: [
+                "Elevated body temperature",
+                "Sweating",
+                "Chills and shivering",
+                "Headache",
+                "Muscle aches",
+                "Dehydration"
+              ]
+            },
+            {
+              heading: "Cold",
+              contDesc:
+                "The common cold is a viral infection of the nose and throat. Symptoms include:",
+              contUl: [
+                "Runny or stuffy nose",
+                "Sneezing",
+                "Congestion",
+                "Sore throat",
+                "Mild body aches",
+                "Low-grade fever"
+              ]
+            },
+            {
+              heading: "Cough",
+              contDesc:
+                "A cough is a reflex action to clear your airways of mucus and irritants. Types of cough include:",
+              contUl: [
+                "Dry Cough: No mucus production.",
+                "Wet Cough: Produces mucus or phlegm."
+              ]
+            },
+            {
+              heading: "Sore Throat",
+              contDesc:
+                "A sore throat is pain, scratchiness, or irritation of the throat. Symptoms include:",
+              contUl: [
+                "Pain or a scratchy sensation in the throat",
+                "Pain that worsens with swallowing or talking",
+                "Swollen, red tonsils",
+                "White patches or pus on the tonsils",
+                "Hoarse or muffled voice"
+              ]
+            }
+          ]
         },
         {},
         {},
@@ -880,19 +1049,41 @@ const TreatmentData = [
             },
           ],
         },
+        {
+          heading:"When to Seek Medical Attention",
+          description:"It's important not to self-treat for extended periods. If your fever, cold, cough, or sore throat persists for more than 2-3 days, it’s crucial to reach out to a qualified doctor. Ignoring persistent symptoms can lead to complications and prolong your recovery. Always consult with a healthcare professional to ensure you receive the proper diagnosis and treatment."
+        },
         
        {},
         {},
         {
           heading: "Why Choose Clinikk for Treatment?",
           content: [
-            "Experienced Doctors: Clinikk’s doctors are highly experienced in treating respiratory infections. With over 6000 patients managed over the years, our doctors provide expert care for common colds, bronchitis, pneumonia, sinusitis, and asthma. If you're searching for a 'chest infection doctor near me' or 'cough doctor near me,' Clinikk is the ideal choice.",
-            "Convenient Locations: Clinikk has multiple clinics across Bengaluru, making it easy to find an ENT doctor or respiratory specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes.",
-            "State-of-the-Art Facilities: Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need a simple check-up or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs.",
-            "Patient-Centric Approach: At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your respiratory issues and provide the best possible treatment.",
-            "Affordable Care: Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare.",
-            "Comprehensive Care: From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your respiratory issues effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
-          ],
+            {
+              point: "Experienced Doctors",
+              desc: "Clinikk’s team includes highly skilled doctors specializing in pain management. With over 2000 patients successfully managed, our doctors provide expert care for back pain, shoulder pain, and joint pain. If you're searching for a 'joint pain doctor near me' or 'ortho doctor near me,' Clinikk is your ideal choice."
+            },
+            {
+              point: "Convenient Locations",
+              desc: "Clinikk has multiple clinics across Bengaluru, making it easy to find an ortho doctor or pain management specialist near you. Our conveniently located clinics ensure you receive timely medical attention without long commutes."
+            },
+            {
+              point: "State-of-the-Art Facilities",
+              desc: "Our clinics are equipped with the latest medical technology to provide accurate diagnoses and effective treatments. Whether you need physical therapy or advanced diagnostic tests, Clinikk is prepared to meet your healthcare needs. Please note that for advanced tests like MRI - we can refer you to specialist labs around your home as we don’t conduct these tests internally."
+            },
+            {
+              point: "Patient-Centric Approach",
+              desc: "At Clinikk, we prioritize your health and well-being. Our patient-centric approach ensures personalized care tailored to your specific needs. We take the time to understand your pain issues and provide the best possible treatment."
+            },
+            {
+              point: "Affordable Care",
+              desc: "Clinikk offers transparent and affordable pricing, ensuring you receive the best care without financial strain. We believe everyone deserves access to quality healthcare."
+            },
+            {
+              point: "Comprehensive Care",
+              desc: "From diagnosis to treatment and follow-up, Clinikk provides a full spectrum of services to manage your pain effectively. Our comprehensive care ensures you get back to feeling your best as quickly as possible."
+            }
+          ]
         },
         {},
         {},
