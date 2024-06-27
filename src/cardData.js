@@ -9,6 +9,7 @@ import hypertension from '../public/hpertension.jpeg'
 import dengue from '../public/dengue.jpeg'
 import feve from '../public/feve.jpeg'
 import derma2 from '../public/derma2.jpeg'
+import thyroid from '../public/thyroid 1.jpg'
 
 const cardData = [
 
@@ -41,8 +42,8 @@ const cardData = [
       id: 13,
       alt:"Thuroid Disorders",
       title: 'Thyroid Disorders',
-      description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla,  Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
-      imageUrl: 'https://plus.unsplash.com/premium_photo-1663047254383-0e4d7aa779bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      description:"Thyroid disorders encompass a range of conditions affecting the thyroid gland, a small butterfly-shaped organ in the neck that produces hormones crucial for metabolism and various bodily functions. Symptoms vary depending on the disorder but may include weight changes, fatigue, mood swings, and changes in heart rate.",
+      imageUrl: thyroid,
       date: "Sunday, 1 Jan 2023",
     },]
   }

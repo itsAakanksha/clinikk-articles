@@ -452,7 +452,7 @@ const TreatmentData = [
       title:
         "Guide to Pain Management: Back Pain, Shoulder Pain, and Joint Pain in Bengaluru",
       image1:joint1,
-     
+    
      
       metaTitle:"Advanced Joint Pain Treatment in Bangalore - Clinikk Health Hub",
       metaDesc:"Discover expert joint pain treatment in Bangalore at Clinikk Health Hub. Our specialists offer personalized care and effective solutions for lasting relief. Visit Clinic now.",
