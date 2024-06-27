@@ -17,7 +17,7 @@ function Cards({ currentItems }) {
             <div className="flex justify-evenly gap-y-6 flex-wrap">
               {item.type.map(
                 (typeItem, typeIndex) =>
-                  typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
+                 <Card key={typeItem.id} item={typeItem} />
               )}
             </div>
             <div className="md:hidden">

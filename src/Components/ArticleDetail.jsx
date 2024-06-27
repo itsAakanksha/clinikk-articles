@@ -52,29 +52,8 @@ function ArticleDetail({ articles }) {
         <span>Back</span>
       </div>
       </Link>
-      <div className="flex flex-col-reverse items-center  lg:mt-8 ">
-        <div className="mb-6 m-1">
-          <div className="font-bold p-4 text-3xl md:my-12 my-2">
-            All Treatments
-          </div>
-          {cardsArray.map((item, index) => (
-            <div key={index} className="">
-           
-              <div className="flex justify-evenly gap-x-4 gap-y-6 flex-wrap">
-                {item.type.map(
-                  (typeItem, typeIndex) =>
-                    typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
-                )}
-              </div>
-            
-              </div>
-            ))}
-            <Cta/>
-         
-        </div>
-        <div className="mt-6">
-        <Cta/>
-        </div>
+      <div className="flex flex-col items-center  lg:mt-8 ">
+      
         <div className="article lg:mx-16 lg:px-32 px-3">
       
           {art?.title && (
@@ -349,7 +328,33 @@ function ArticleDetail({ articles }) {
               {art.sections[9]?.content &&  <div dangerouslySetInnerHTML={{ __html: art.sections[9].content} } ></div>}
             </>
           )}
+         <div className="mt-6">
+        <Form/>
         </div>
+        </div>
+
+      
+
+        <div className="mb-6 m-1">
+        <div className="font-bold p-4 text-3xl md:my-12 my-2">
+          All Treatments
+        </div>
+        {cardsArray.map((item, index) => (
+          <div key={index} className="">
+         
+            <div className="flex justify-evenly gap-x-4 gap-y-6 flex-wrap">
+              {item.type.map(
+                (typeItem, typeIndex) =>
+                  typeIndex < 3 && <Card key={typeItem.id} item={typeItem} />
+              )}
+            </div>
+          
+            </div>
+          ))}
+         <Form/>
+       
+      </div>
+     
         
       </div>
     </>

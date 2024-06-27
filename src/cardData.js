@@ -39,7 +39,7 @@ const cardData = [
     },
     {
       id: 13,
-      alt:"",
+      alt:"Thuroid Disorders",
       title: 'Thyroid Disorders',
       description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus autem! Voluptates, porro aliquam incidunt laboriosam deleniti inventore molestiae aperiam ut autem nulla,  Vel corporis, sapiente temporibus deserunt distinctio dolor aspernatur perferendis at eos repellat a commodi nemo veritatis molestiae ipsa fuga incidunt illum fugit aperiam? Commodi similique adipisci reiciendis quod a. Corrupti.",
       imageUrl: 'https://plus.unsplash.com/premium_photo-1663047254383-0e4d7aa779bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
