@@ -49,7 +49,7 @@ const cardData = [
   }
 ,
   {
-    categoryName:"Skin Conditions we treat",
+    categoryName:"Skin Conditions",
     type:[ {
       id: 6,
       alt:"Girl sneezing with Allergic Reactions",

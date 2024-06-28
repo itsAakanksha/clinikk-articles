@@ -6,7 +6,7 @@ function Cta() {
     <div className='flex justify-center   my-5'>
     <a
     href="https://clinikk.com/clinics-bangalore"
-    className="schedule-button inline-flex items-center px-16  py-2.5 bg-[#7E3AF2] text-white text-md no-underline rounded-full font-poppins hover:border-black hover:border-2  "
+    className="schedule-button inline-flex items-center px-16  py-2.5 bg-[#7E3AF2] text-white text-md no-underline rounded-full hover:border-black hover:border-2  "
   >
     Book Clinikk Visit
     <svg
