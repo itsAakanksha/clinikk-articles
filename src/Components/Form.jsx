@@ -4,7 +4,7 @@ const Form = () => {
 
   return (
     <div className=" flex flex-col lg:flex lg:flex-row  lg:space-around items-center bg-[#F3F3F6] xl:space-x-6  rounded-3xl my-4 p-4 ">
-      <h2 className="lg:text-2xl w-full  text-xl md:text-2xl text-center   font-semibold ">Are You Looking For Doctor Appointment ?</h2>
+      <h2 className=" w-full  text-xl md:text-2xl text-center   font-semibold ">Are You Looking For Doctor Appointment ?</h2>
       <div className='w-full'>
       <Cta/>
       </div>
