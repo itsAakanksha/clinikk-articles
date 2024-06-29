@@ -4,12 +4,13 @@ import headache from  '../public/headache.jpeg'
 import throat from  '../public/sorethroat.jpeg'
 import body from  '../public/body.jpeg'
 import back from  '../public/back.jpeg'
-import joint from  '../public/joint (2).jpeg'
+import joint from  '../public/Joint Pain Home-min.jpg'
 import hypertension from '../public/hpertension.jpeg'
-import dengue from '../public/dengue.jpeg'
-import feve from '../public/feve.jpeg'
-import derma2 from '../public/derma2.jpeg'
+import dengue from '../public/Dengue Home-min.jpg'
+import feve from '../public/Fever Cold Cough Home-min.jpg'
+import derma2 from '../public/Dermatitis HOme-min.jpg'
 import thyroid from '../public/thyroid 1.jpg'
+import wound from '../public/Wound INfection  HOme-min.jpg'
 
 const cardData = [
 
@@ -154,7 +155,7 @@ const cardData = [
       alt:"Wound Infections.",
       title: ' Wound Infections.',
       description:"Wound infections occur when bacteria enter a wound, causing inflammation and potentially delaying healing. Common signs of wound infection include increased pain, redness, swelling, warmth around the wound, pus or discharge, and fever.",
-      imageUrl: 'https://images.unsplash.com/photo-1579544758184-a8994eb607a4?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: wound,
       date: "Sunday, 1 Jan 2023",
     },] 
   }

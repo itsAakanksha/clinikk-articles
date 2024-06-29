@@ -1,7 +1,7 @@
 import dengue1 from '../public/dengue1.jpeg';
-import dengue2 from '../public/dengue2.jpeg';
+import dengue2 from '../public/Dengue internal-min.jpg';
 import fever1 from '../public/fever1.jpeg';
-import fever2 from '../public/fever2a.jpeg';
+import fever2 from '../public/Fever Cold Cough Internal-min.jpg';
 import diab1 from '../public/diab1.jpeg';
 import diab2 from '../public/diab2.jpeg';
 import joint2 from  '../public/joint (2).jpeg'
