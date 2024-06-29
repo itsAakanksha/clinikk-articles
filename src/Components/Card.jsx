@@ -18,7 +18,7 @@ function Card({ item }) {
       </div>
       <div className='flex flex-col gap-2 p-4 flex-grow'>
         <h3 className='text-2xl font-semibold'>{item.title}</h3>
-        <p className='text-[#667085] line-clamp-6'>
+        <p className='text-[#667085] line-clamp-7'>
           {item.description}
         </p>
       </div>
